@@ -67,32 +67,40 @@ def analyze_rxn(rxn):
 
 
 def split_data():
-    df_ocr = pd.read_csv("data/ocrtrain.csv")
+    df_uspto = pd.read_csv("data/dataSetB.csv")
     # print(df_ocr)
-    reactants_unclean = df_ocr.iloc[:,0]
-    products_unclean = df_ocr.iloc[:,1]
+    # reactants_unclean = df_ocr.iloc[:,0]
+    # products_unclean = df_ocr.iloc[:,1]
+    print(df_uspto)
 
-    reactants = [s.replace(" ", "") for s in reactants_unclean]
-    products = [s.replace(" ", "") for s in products_unclean]
+    rxns = df_uspto["rxnSmiles_Mapping_NameRxn"]
+    is_completes = df_uspto["NameRxn_Mapping_Complete"]
+    rxn_ids = df_uspto["patentID"]
+    reaction_smiles = []
+    ids = []
+    for i in range(len(rxns)):
+        if is_completes[i]:
+            reaction_smiles.append(rxns[i])
+            ids.append(rxn_ids[i])
 
-    reaction_smiles = [""] * len(reactants)
-    reactions = [rdChemReactions.ChemicalReaction] * len(reactants)
-    for i in range(len(reactants)):
-        if i % 5000 == 0:
-            print(i, "/", len(reactants))
-        reaction_smiles[i] = reactants[i] + ">>" + products[i]
-        # print(reaction_smiles[i])
-        reactions[i] = rdChemReactions.ReactionFromSmarts(reaction_smiles[i], useSmiles=True)
+    products = []
+    reactants = []
+
+    for reaction in reaction_smiles:
+        rxn = rdChemReactions.ReactionFromSmarts(reaction, useSmiles=True)
+        rxn_reactants = [Chem.MolToSmiles(rxn.GetReactantTemplate(i)) for i in range(rxn.GetNumReactantTemplates())]
+        rxn_products = [Chem.MolToSmiles(rxn.GetProductTemplate(i)) for i in range(rxn.GetNumProductTemplates())]
+        reactants.append(rxn_reactants)
+        products.append(rxn_products)
+
 
     results = pd.DataFrame({
+        "patent_id": ids,
         "reactants": reactants,
         "products": products,
         "reaction_smiles": reaction_smiles
     })
-    results.to_csv("data/full_ocr_data", index=False)
-
-    for i in range(20):
-        analyze_rxn(reactions[i])
+    results.to_csv("data/uspto_data.csv", index=False)
 
 
 def inspect_data(data_path):
@@ -135,8 +143,8 @@ def map_reactions(data):
 
 if __name__ == "__main__":
     # analyze_reactions("CC(C)CS(=O)(=O)Cl.OCCCl>>CC(C)CS(=O)(=O)OCCCl")
-    map_reactions("data/full_ocr_data")
+    # map_reactions("data/full_ocr_data")
     # inspect_data("data/full_ocr_data")
-    # split_data()
+    split_data()
     # analyze_rxn()
     # full_rxn_data()
