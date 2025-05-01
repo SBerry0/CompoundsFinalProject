@@ -3,7 +3,7 @@ from rxnmapper import RXNMapper
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import Draw, rdChemReactions
-
+import os
 
 pd.set_option('display.max_rows', 100)  # Show up to 10 rows
 pd.set_option('display.max_columns', 15)  # Show up to 5 columns
@@ -114,10 +114,16 @@ def analyze_reactions(SMILES_string):
     print(type(reaction))
 
     # rxn = rdChemReactions.ReactionFromSmarts("[C:1](=O)[Cl:2].[NH2:3]>>[C:1](=O)[NH:3]", useSmiles=True)
-    mol1 = Chem.MolFromSmiles("OCCCl")
-    mol2 = Chem.MolFromSmiles("CC(C)CS(=O)(=O)Cl")
-    products = reaction.RunReactants((mol1, mol2))
+    mol1 = Chem.MolFromSmiles("CCCCCC")
+    mol2 = Chem.MolFromSmiles("CO")
+    mol3 = Chem.MolFromSmiles("C")
+    mol4 = Chem.MolFromSmiles("[ClH:28]")
+    mol5 = Chem.MolFromSmiles("[Pd]")
+    mol6 = Chem.MolFromSmiles("[ClH:28]")
 
+    # products = reaction.RunReactants((mol1, mol2, mol3, mol4, mol5, mol6))
+    products = reaction.RunReactant(Chem.MolFromSmiles("C"), 0)
+    print(products)
     for product_set in products:
         for product in product_set:
             print("Product:", Chem.MolToSmiles(product))
@@ -141,10 +147,55 @@ def map_reactions(data):
     output = pd.DataFrame(mapped)
     output.to_csv("data/mapped.csv")
 
+
+def count_heavy_atoms(smiles):
+    mol = Chem.MolFromSmiles(smiles)
+    return mol.GetNumHeavyAtoms() if mol else 999  # 999 ensures error ones are excluded
+
+def is_reaction_small_enough(reaction_smiles, max_heavy_atoms):
+    try:
+        parts = reaction_smiles.strip().split(">>")
+        reactants = parts[0].split(".") if parts[0] else []
+        products = parts[2].split(".") if len(parts) > 2 else []
+
+        all_smiles = reactants
+        return all(count_heavy_atoms(sm) <= max_heavy_atoms for sm in all_smiles)
+    except Exception as e:
+        return False
+
+def filter_reactions(input_file, output_file, mol_size_threshold):
+    input = pd.read_csv(input_file)
+    clean_smiles = []
+    clean_reactants = []
+    clean_products = []
+    clean_ids = []
+    for i in range(len(input["reaction_smiles"])):
+        if is_reaction_small_enough(input["reaction_smiles"][i], mol_size_threshold):
+            clean_smiles.append(input["reaction_smiles"][i])
+            clean_reactants.append(input["reactants"][i])
+            clean_products.append(input["products"][i])
+            clean_ids.append((input["patent_id"][i]))
+
+    results = pd.DataFrame({
+        "patent_id": clean_ids,
+        "reactants": clean_reactants,
+        "products": clean_products,
+        "reaction_smiles": clean_smiles
+    })
+    results.to_csv(output_file, index=False)
+
+    print(f"Filtered reactions saved to: {output_file}")
+    print(input.shape, "vs", results.shape)
+
+
+
 if __name__ == "__main__":
-    # analyze_reactions("CC(C)CS(=O)(=O)Cl.OCCCl>>CC(C)CS(=O)(=O)OCCCl")
+    filter_reactions("data/uspto_data.csv", "data/uspto_clean_data_20.csv", 20)
+    # inspect_data("data/uspto_data.csv")
+    # inspect_data("data/uspto_clean_data.csv")
+    # analyze_reactions("C.CCCCCC.CO.O=C(OCc1ccccc1)[NH:1][CH2:2][CH2:3][CH2:4][CH2:5][C@@H:6]([C:7]([O:8][CH3:9])=[O:10])[NH:11][C:12](=[O:13])[NH:14][c:15]1[cH:16][c:17]([O:18][CH3:19])[cH:20][c:21]([C:22]([CH3:23])([CH3:24])[CH3:25])[c:26]1[OH:27].[ClH:28].[Pd]>>[ClH:28].[NH2:1][CH2:2][CH2:3][CH2:4][CH2:5][C@@H:6]([C:7]([O:8][CH3:9])=[O:10])[NH:11][C:12](=[O:13])[NH:14][c:15]1[cH:16][c:17]([O:18][CH3:19])[cH:20][c:21]([C:22]([CH3:23])([CH3:24])[CH3:25])[c:26]1[OH:27]")
     # map_reactions("data/full_ocr_data")
     # inspect_data("data/full_ocr_data")
-    split_data()
+    # split_data()
     # analyze_rxn()
     # full_rxn_data()
