@@ -1,6 +1,7 @@
 from collections import defaultdict
 from typing import List, Set
-
+import ast
+import pandas as pd
 
 
 class Reaction:
@@ -9,6 +10,20 @@ class Reaction:
         self.id = id
         self.reactants: Set[str] = set(reactants)
         self.products: Set[str] = set(products)
+
+    #this is so dumb
+    def __str__(self):
+        str = "Reaction id: " + self.id + "\n"
+        for i in range(len(self.reactants)):
+            str += list(self.reactants)[i]
+            if i+1 < len(self.reactants):
+                str += " + "
+        str += " >> "
+        for i in range(len(self.products)):
+            str += list(self.products)[i]
+            if i+1 < len(self.products):
+                str += " + "
+        return str
 
 class ReactionStep:
     def __init__(self, reaction_id: str, reactants: Set[str], product: str, dependencies: dict):
@@ -37,6 +52,7 @@ def find_multi_step_products(available_reactants: Set[str], available_reactions:
 def find_products(available_reactants: Set[str], available_reactions: List[Reaction]):
     known_chemicals = set(available_reactants)
     chemical_history = {} # chemical: (reaction, reactants)
+    print("Finding products....")
 
     new_found = True
     while new_found:
@@ -48,6 +64,7 @@ def find_products(available_reactants: Set[str], available_reactions: List[React
                         known_chemicals.add(product)
                         chemical_history[product] = (rxn, rxn.reactants.copy())
                         new_found = True
+    print("Products found.")
 
     def get_chain(product: str):
         # If the given product is in the available reactants, it's an original material and should be excluded
@@ -61,8 +78,16 @@ def find_products(available_reactants: Set[str], available_reactions: List[React
     return { product: get_chain(product) for product in chemical_history }
 
 
-# for testing
-reactions = [
+# for testing from chatGPT
+def print_reaction_chain(step: ReactionStep, indent: int = 0):
+    if step is None:
+        return
+    pad = '  ' * indent
+    print(f"{pad}{step.product} <= via reaction {step.reaction_id} using {step.reactants}")
+    for reactant, substep in step.dependencies.items():
+        print_reaction_chain(substep, indent + 1)
+
+sample_reactions = [
     # Reaction("US08978554B2", ['Cl[C:1]([CH:2]=[CH2:3])=[O:4]', '[NH2:5][CH2:6][C:7](=[O:8])[OH:9]', '[Na+]', '[OH-]'], ['[C:1]([CH:2]=[CH2:3])(=[O:4])[NH:5][CH2:6][C:7](=[O:8])[OH:9]'])
     Reaction("1", ["C(C1C(C(C(C(O1)O)O)O)O)O"], ["CCO.CCO", "O=C=O.O=C=O"]),
     Reaction("2", ["Cl", "N"], ["[NH4+].[Cl-]"]),
@@ -72,29 +97,39 @@ reactions = [
     Reaction("6", ["O=C=O", "[H][H]"], ["C", "O"])
 ]
 
-def print_reaction_chain(step: ReactionStep, indent: int = 0):
-    if step is None:
-        return
-    pad = '  ' * indent
-    print(f"{pad}{step.product} <= via reaction {step.reaction_id} using {step.reactants}")
-    for reactant, substep in step.dependencies.items():
-        print_reaction_chain(substep, indent + 1)
+def make_reactions(filepath):
+    print("Setting up reactions....")
+    print("Using file \"" + filepath + "\"....")
+    if not filepath:
+        return sample_reactions
 
+    df = pd.read_csv(filepath)
+    reactions = []
+    for row in df.itertuples():
+        # ast.literal_eval from ChatGPT
+        reactions.append(Reaction(row.patent_id, ast.literal_eval(row.reactants), ast.literal_eval(row.products)))
+    print(reactions[1])
+    print("Reactions are set.\n")
+    return reactions
 
 
 if __name__ == "__main__":
     starting = {"Cl", "N", "NaHCO3", "[H][H]"}
+    # for rxn in reactions:
+    #     for reactant in rxn.reactants:
+    #         print(reactant, end=", ")
+
     # print(find_multi_step_products(starting, reactions))
 
     # paths = find_products({"Cl", "N", "NaHCO3"}, reactions)
     # for product, path_info in paths.items():
     #     print(f"{product} was created via reaction {path_info['reaction_id']} using {path_info['reactants']}")
 
+    reactions = make_reactions("data/filteredReactantSize/uspto_clean_data_10.csv")
+    print("Running reactions with starting chemicals", starting)
     chains = find_products(starting, reactions)
+    print(chains)
     for product, chain in chains.items():
         print(f"\nChain for {product}:")
         print_reaction_chain(chain)
 
-    # for rxn in reactions:
-    #     for reactant in rxn.reactants:
-    #         print(reactant, end=", ")
