@@ -42,9 +42,9 @@ print('--------------------------------------------------------')
 print('\n\n')
 
 
-for col in list_presence_df.columns:
-    unique_vals = list_presence_df[col].unique()
-    print(f"{col}: {unique_vals}")
+# for col in list_presence_df.columns:
+#     unique_vals = list_presence_df[col].unique()
+#     print(f"{col}: {unique_vals}")
 
 
 
@@ -60,31 +60,50 @@ for _, row in list_presence_df.iterrows():
 # print(ids)
 print(len(ids))
 
-import cirpy
-from concurrent.futures import ThreadPoolExecutor
-import time
+import pubchempy as pcp
 
-def resolve_all(key):
-    time.sleep(0.5)
-    return {
-        'key': key,
-        'smiles': cirpy.resolve(key, 'smiles'),
-        'name': cirpy.resolve(key, 'names'),
-        'formula': cirpy.resolve(key, 'formula')
-    }
+def resolve_pubchem(key):
+    try:
+        compound = pcp.Compound.from_cid(key)
+        return {
+            'cid': key,
+            'smiles': compound.isomeric_smiles,
+            'name': compound.iupac_name,
+            'formula': compound.molecular_formula
+        }
+    except IndexError:
+        return {'cid': key, 'smiles': None, 'name': None, 'formula': None}
+    except Exception as e:
+        return {'cid': key, 'smiles': None, 'name': None, 'formula': None, 'error': str(e)}
 
-results = []
-i=0
-with ThreadPoolExecutor(max_workers=10) as executor:
-    for result in executor.map(resolve_all, ids.keys()):
-        if i % 200 == 0:
-            print(i, "/", len(ids))
-        results.append(result)
-        i+=1
+
+
+# import cirpy
+# from concurrent.futures import ThreadPoolExecutor
+# import time
+#
+# def resolve_all(key):
+#     time.sleep(0.5)
+#     return {
+#         'key': key,
+#         'smiles': cirpy.resolve(key, 'smiles'),
+#         'name': cirpy.resolve(key, 'names'),
+#         'formula': cirpy.resolve(key, 'formula')
+#     }
+#
+# results = []
+# i=0
+# with ThreadPoolExecutor(max_workers=10) as executor:
+#     for result in executor.map(resolve_all, ids.keys()):
+#         if i % 200 == 0:
+#             print(i, "/", len(ids))
+#         results.append(result)
+#         i+=1
 
 
 # for key, value in ids.items():
-
+#     if i % 200 == 0:
+#     print(i, "/", len(ids))
 #     smiles = cirpy.resolve(key, 'smiles')
 #     name = cirpy.resolve(key, 'names')
 #     formula = cirpy.resolve(key, 'formula')
@@ -117,9 +136,14 @@ class Chemical:
         return cls(d['casid'], d['smiles'], d['formula'], d['chemical_name'], d['name'])
 
 chemicals = []
-
+# results = [resolve_pubchem(key) for key in ids.keys()]
+results = []
+for i, key in enumerate(ids.keys()):
+    if i % 200 == 0:
+        print(i, "/", len(ids))
+    results.append(resolve_pubchem(key))
 for res in results:
-    chemicals.append(Chemical(res['key'], res['smiles'], res['formula'], ids[res['key']], res['name']))
+    chemicals.append(Chemical(res['cid'], res['smiles'], res['formula'], ids[res['key']], res['name']))
 
 import json
 
