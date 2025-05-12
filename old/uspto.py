@@ -12,9 +12,9 @@ pd.set_option('display.max_colwidth', 500) # Set max column width to 20 characte
 
 
 def full_rxn_data():
-    set_a = pd.read_csv("data/dataSetA.csv")
-    set_b = pd.read_csv("data/dataSetB.csv")
-    set_1000 = pd.read_csv("data/uspto_1k_TPL_train_valid.tsv", delimiter="\t")
+    set_a = pd.read_csv("../data/dataSetA.csv")
+    set_b = pd.read_csv("../data/dataSetB.csv")
+    set_1000 = pd.read_csv("../data/uspto_1k_TPL_train_valid.tsv", delimiter="\t")
 
     # Don't seem super useful
     # iim_b = pd.read_csv("data/incompleteIndigoMappings_dataSetB.csv")
@@ -67,7 +67,7 @@ def analyze_rxn(rxn):
 
 
 def split_data():
-    df_uspto = pd.read_csv("data/dataSetB.csv")
+    df_uspto = pd.read_csv("../data/dataSetB.csv")
     # print(df_ocr)
     # reactants_unclean = df_ocr.iloc[:,0]
     # products_unclean = df_ocr.iloc[:,1]
@@ -109,43 +109,43 @@ def inspect_data(data_path):
     print(data.shape)
     print(data)
 
-def analyze_reactions(SMILES_string):
-    reaction = rdChemReactions.ReactionFromSmarts(SMILES_string, useSmiles=True)
-    print(type(reaction))
+# def analyze_reactions(SMILES_string):
+#     reaction = rdChemReactions.ReactionFromSmarts(SMILES_string, useSmiles=True)
+#     print(type(reaction))
+#
+#     # rxn = rdChemReactions.ReactionFromSmarts("[C:1](=O)[Cl:2].[NH2:3]>>[C:1](=O)[NH:3]", useSmiles=True)
+#     mol1 = Chem.MolFromSmiles("CCCCCC")
+#     mol2 = Chem.MolFromSmiles("CO")
+#     mol3 = Chem.MolFromSmiles("C")
+#     mol4 = Chem.MolFromSmiles("[ClH:28]")
+#     mol5 = Chem.MolFromSmiles("[Pd]")
+#     mol6 = Chem.MolFromSmiles("[ClH:28]")
+#
+#     # products = reaction.RunReactants((mol1, mol2, mol3, mol4, mol5, mol6))
+#     products = reaction.RunReactant(Chem.MolFromSmiles("C"), 0)
+#     print(products)
+#     for product_set in products:
+#         for product in product_set:
+#             print("Product:", Chem.MolToSmiles(product))
 
-    # rxn = rdChemReactions.ReactionFromSmarts("[C:1](=O)[Cl:2].[NH2:3]>>[C:1](=O)[NH:3]", useSmiles=True)
-    mol1 = Chem.MolFromSmiles("CCCCCC")
-    mol2 = Chem.MolFromSmiles("CO")
-    mol3 = Chem.MolFromSmiles("C")
-    mol4 = Chem.MolFromSmiles("[ClH:28]")
-    mol5 = Chem.MolFromSmiles("[Pd]")
-    mol6 = Chem.MolFromSmiles("[ClH:28]")
 
-    # products = reaction.RunReactants((mol1, mol2, mol3, mol4, mol5, mol6))
-    products = reaction.RunReactant(Chem.MolFromSmiles("C"), 0)
-    print(products)
-    for product_set in products:
-        for product in product_set:
-            print("Product:", Chem.MolToSmiles(product))
-
-
-def map_reactions(data):
-    mapper = RXNMapper()
-    unmapped = pd.read_csv(data)
-
-    results = mapper.get_attention_guided_atom_maps(rxns=unmapped["reaction_smiles"], detailed_output=True)
-    # results = mapper.get_attention_guided_atom_maps(rxns=["CC(C)(C)NN.O=C1CCCCC1.[C-]#N>>CC(C)(C)NNC1(C#N)CCCCC1"])
-    mapped = []
-    # mapped_rxn = results[0]['mapped_rxn']
-    # print("Mapped Reaction:", mapped_rxn)
-    print(len(results))
-    for i in range(len(results)):
-        if i % 1000 == 0:
-            print(i, "/", len(results))
-        mapped.append(results[i]['mapped_rxn'])
-
-    output = pd.DataFrame(mapped)
-    output.to_csv("data/mapped.csv")
+# def map_reactions(data):
+#     mapper = RXNMapper()
+#     unmapped = pd.read_csv(data)
+#
+#     results = mapper.get_attention_guided_atom_maps(rxns=unmapped["reaction_smiles"], detailed_output=True)
+#     # results = mapper.get_attention_guided_atom_maps(rxns=["CC(C)(C)NN.O=C1CCCCC1.[C-]#N>>CC(C)(C)NNC1(C#N)CCCCC1"])
+#     mapped = []
+#     # mapped_rxn = results[0]['mapped_rxn']
+#     # print("Mapped Reaction:", mapped_rxn)
+#     print(len(results))
+#     for i in range(len(results)):
+#         if i % 1000 == 0:
+#             print(i, "/", len(results))
+#         mapped.append(results[i]['mapped_rxn'])
+#
+#     output = pd.DataFrame(mapped)
+#     output.to_csv("data/mapped.csv")
 
 
 def count_heavy_atoms(smiles):
@@ -190,7 +190,7 @@ def filter_reactions(input_file, output_file, mol_size_threshold):
 
 
 if __name__ == "__main__":
-    filter_reactions("data/uspto_data.csv", "data/uspto_clean_data_20.csv", 20)
+    filter_reactions("../data/uspto_data.csv", "data/uspto_clean_data_20.csv", 20)
     # inspect_data("data/uspto_data.csv")
     # inspect_data("data/uspto_clean_data.csv")
     # analyze_reactions("C.CCCCCC.CO.O=C(OCc1ccccc1)[NH:1][CH2:2][CH2:3][CH2:4][CH2:5][C@@H:6]([C:7]([O:8][CH3:9])=[O:10])[NH:11][C:12](=[O:13])[NH:14][c:15]1[cH:16][c:17]([O:18][CH3:19])[cH:20][c:21]([C:22]([CH3:23])([CH3:24])[CH3:25])[c:26]1[OH:27].[ClH:28].[Pd]>>[ClH:28].[NH2:1][CH2:2][CH2:3][CH2:4][CH2:5][C@@H:6]([C:7]([O:8][CH3:9])=[O:10])[NH:11][C:12](=[O:13])[NH:14][c:15]1[cH:16][c:17]([O:18][CH3:19])[cH:20][c:21]([C:22]([CH3:23])([CH3:24])[CH3:25])[c:26]1[OH:27]")

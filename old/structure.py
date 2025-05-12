@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # for product, path_info in paths.items():
     #     print(f"{product} was created via reaction {path_info['reaction_id']} using {path_info['reactants']}")
 
-    reactions = make_reactions("data/filteredReactantSize/uspto_clean_data_10.csv")
+    reactions = make_reactions("../data/filteredReactantSize/uspto_clean_data_10.csv")
     print("Running reactions with starting chemicals", starting)
     chains = find_products(starting, reactions)
     print(chains)

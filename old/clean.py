@@ -5,9 +5,9 @@ import pandas as pd
 pd.set_option('display.max_columns', None)
 
 
-list_file = "data/cpdat_v4.0/cpdat_v4.0_list_presence_data.csv"
-functional_file = "data/cpdat_v4.0/cpdat_v4.0_functional_use_data.csv"
-output_file = "data/cpdat_merged_files.csv"
+list_file = "../data/cpdat_v4.0/cpdat_v4.0_list_presence_data.csv"
+functional_file = "../data/cpdat_v4.0/cpdat_v4.0_functional_use_data.csv"
+output_file = "../data/cpdat_merged_files.csv"
 
 checkpoint_interval = 2000
 checkpoint_file_prefix = "chemicals_checkpoint_"
