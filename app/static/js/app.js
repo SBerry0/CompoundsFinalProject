@@ -115,7 +115,7 @@ function displayResults(results) {
         return;
     }
 
-    results.forEach(item => {
+    results.forEach((item, index) => {
         if (!item.chain || !item.product) {
             console.warn('Invalid result item:', item);
             return;
@@ -123,13 +123,40 @@ function displayResults(results) {
         treeRoot.appendChild(buildTree(item.chain));
         const prodDiv = document.createElement('div');
         prodDiv.classList.add('product-card');
+        // Add unique ID for 3D viewer
+        const viewerId = `viewer-${index}`;
         prodDiv.innerHTML = `
             <h3>${item.product.chemical_name || 'Unknown'}</h3>
             <p>CAS: ${item.product.casid || 'Unknown'}</p>
             <p>Formula: ${item.product.formula || 'Unknown'}</p>
             <p>SMILES: ${item.product.smiles || 'Unknown'}</p>
+            <div id="${viewerId}" class="viewer-3d" style="width: 200px; height: 200px;"></div>
         `;
         productList.appendChild(prodDiv);
+
+        // Load 3D model if SMILES is available
+        if (item.product.smiles) {
+            fetch(`/get_3d_model?smiles=${encodeURIComponent(item.product.smiles)}`)
+                .then(res => {
+                    if (!res.ok) {
+                        throw new Error(`Failed to fetch 3D model: ${res.status}`);
+                    }
+                    return res.text(); // Get PDB data as text
+                })
+                .then(pdbData => {
+                    const viewer = $3Dmol.createViewer(viewerId);
+                    viewer.addModel(pdbData, 'pdb');
+                    viewer.setStyle({}, { stick: {} });
+                    viewer.zoomTo();
+                    viewer.render();
+                })
+                .catch(err => {
+                    console.error('Error loading 3D model:', err);
+                    prodDiv.querySelector(`#${viewerId}`).innerHTML = 'Failed to load 3D model';
+                });
+        } else {
+            prodDiv.querySelector(`#${viewerId}`).innerHTML = 'No SMILES data';
+        }
     });
 }
 

@@ -9,6 +9,7 @@ import json
 
 from rdkit import Chem
 from rdkit.Chem import AllChem
+from rdkit.Chem.AllChem import EmbedMolecule, UFFOptimizeMolecule
 
 from app.models import ReactionChain
 from app.chemicals import Chemical
@@ -61,23 +62,16 @@ async def run_reaction(reactants: List[str]):
 @app.get("/get_3d_model", response_class=PlainTextResponse)
 async def get_3d_model(smiles: str):
     try:
-        # Parse SMILES and generate 3D coordinates
         mol = Chem.MolFromSmiles(smiles)
         if mol is None:
-            raise ValueError("Invalid SMILES string")
+            raise ValueError("Invalid SMILES string.")
 
-        # Add hydrogens and generate 3D coordinates
         mol = Chem.AddHs(mol)
-        AllChem.EmbedMolecule(mol, randomSeed=42)
-        AllChem.MMFFOptimizeMolecule(mol)
+        if EmbedMolecule(mol) != 0:
+            raise RuntimeError("3D coordinate embedding failed.")
+        UFFOptimizeMolecule(mol)
 
-        # Convert to PDB
-        pdb_writer = Chem.PDBWriter(io.StringIO())
-        pdb_writer.write(mol)
-        pdb_writer.flush()
-        pdb_string = pdb_writer.getOutput()
-        pdb_writer.close()
-
-        return pdb_string
+        pdb_block = Chem.MolToPDBBlock(mol)
+        return pdb_block
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Failed to generate 3D model: {str(e)}")
