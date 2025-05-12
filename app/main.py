@@ -1,9 +1,14 @@
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse, JSONResponse
+import io
+
+from fastapi import FastAPI, Request, HTTPException
+from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from typing import List
 import json
+
+from rdkit import Chem
+from rdkit.Chem import AllChem
 
 from app.models import ReactionChain
 from app.chemicals import Chemical
@@ -52,3 +57,27 @@ async def run_reaction(reactants: List[str]):
         })
     print(output)
     return JSONResponse(output)
+
+@app.get("/get_3d_model", response_class=PlainTextResponse)
+async def get_3d_model(smiles: str):
+    try:
+        # Parse SMILES and generate 3D coordinates
+        mol = Chem.MolFromSmiles(smiles)
+        if mol is None:
+            raise ValueError("Invalid SMILES string")
+
+        # Add hydrogens and generate 3D coordinates
+        mol = Chem.AddHs(mol)
+        AllChem.EmbedMolecule(mol, randomSeed=42)
+        AllChem.MMFFOptimizeMolecule(mol)
+
+        # Convert to PDB
+        pdb_writer = Chem.PDBWriter(io.StringIO())
+        pdb_writer.write(mol)
+        pdb_writer.flush()
+        pdb_string = pdb_writer.getOutput()
+        pdb_writer.close()
+
+        return pdb_string
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Failed to generate 3D model: {str(e)}")

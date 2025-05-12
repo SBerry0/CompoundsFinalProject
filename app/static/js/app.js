@@ -38,13 +38,62 @@ function buildTree(chain) {
     chain.forEach(rx => {
         const li = document.createElement('li');
         li.textContent = `${rx.reaction.id}: ${rx.reaction.reaction_type} (${rx.reaction.conditions})`;
+
+        // Create a nested <ul> for reaction details and dependencies
+        const detailsUl = document.createElement('ul');
+
+        // Build pretty reaction string: reactants + " → " + products
+        const reactionLi = document.createElement('li');
+        const reactantStr = rx.reaction.reactants && Array.isArray(rx.reaction.reactants)
+            ? rx.reaction.reactants.map(r => r.formula || 'Unknown').join(' + ')
+            : 'None';
+        const productStr = rx.reaction.products && Array.isArray(rx.reaction.products)
+            ? rx.reaction.products.map(p => p.formula || 'Unknown').join(' + ')
+            : 'None';
+        reactionLi.textContent = `${reactantStr} → ${productStr}`;
+        detailsUl.appendChild(reactionLi);
+
+        // Add Reactants label and names
+        if (rx.reaction.reactants && Array.isArray(rx.reaction.reactants) && rx.reaction.reactants.length > 0) {
+            const reactantsLabelLi = document.createElement('li');
+            reactantsLabelLi.textContent = 'Reactants:';
+            reactantsLabelLi.style.fontWeight = 'bold';
+            detailsUl.appendChild(reactantsLabelLi);
+
+            rx.reaction.reactants.forEach(r => {
+                const nameLi = document.createElement('li');
+                nameLi.textContent = r.chemical_name || 'Unknown';
+                detailsUl.appendChild(nameLi);
+            });
+        }
+
+        // Add Products label and names
+        if (rx.reaction.products && Array.isArray(rx.reaction.products) && rx.reaction.products.length > 0) {
+            const productsLabelLi = document.createElement('li');
+            productsLabelLi.textContent = 'Products:';
+            productsLabelLi.style.fontWeight = 'bold';
+            detailsUl.appendChild(productsLabelLi);
+
+            rx.reaction.products.forEach(p => {
+                const nameLi = document.createElement('li');
+                nameLi.textContent = p.chemical_name || 'Unknown';
+                detailsUl.appendChild(nameLi);
+            });
+        }
+
         // Get nested ReactionStep objects from dependencies
         const nestedSteps = Object.values(rx.dependencies)
-            .filter(step => step !== null && step.reaction); // Ensure valid ReactionStep
+            .filter(step => step !== null && step.reaction);
         if (nestedSteps.length > 0) {
-            const sub = buildTree(nestedSteps); // Recurse on dependencies
-            li.appendChild(sub);
+            const sub = buildTree(nestedSteps);
+            detailsUl.appendChild(sub);
         }
+
+        // Append the details <ul> if it has children
+        if (detailsUl.children.length > 0) {
+            li.appendChild(detailsUl);
+        }
+
         ul.appendChild(li);
     });
     return ul;
