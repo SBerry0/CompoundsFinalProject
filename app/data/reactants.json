@@ -1,0 +1,1172 @@
+[
+  {
+    "casid": "75-07-0",
+    "smiles": "CC=O",
+    "formula": "C2H4O",
+    "chemical_name": "Acetaldehyde"
+  },
+  {
+    "casid": "103-90-2",
+    "smiles": "CC(=O)Nc1ccc(O)cc1",
+    "formula": "C8H9NO2",
+    "chemical_name": "Acetaminophen"
+  },
+  {
+    "casid": "64-19-7",
+    "smiles": "CC(O)=O",
+    "formula": "C2H4O2",
+    "chemical_name": "Acetic acid"
+  },
+  {
+    "casid": "67-64-1",
+    "smiles": "CC(C)=O",
+    "formula": "C3H6O",
+    "chemical_name": "Acetone"
+  },
+  {
+    "casid": "124-04-9",
+    "smiles": "OC(=O)CCCCC(O)=O",
+    "formula": "C6H10O4",
+    "chemical_name": "Adipic acid"
+  },
+  {
+    "casid": "56-41-7",
+    "smiles": "CC(N)C(O)=O",
+    "formula": "C3H7NO2",
+    "chemical_name": "Alanine"
+  },
+  {
+    "casid": "7429-90-5",
+    "smiles": "[Al]",
+    "formula": "Al",
+    "chemical_name": "Aluminum"
+  },
+  {
+    "casid": "7446-70-0",
+    "smiles": "[Al+3].[Cl-].[Cl-].[Cl-]",
+    "formula": "AlCl3",
+    "chemical_name": "Aluminum chloride"
+  },
+  {
+    "casid": "21645-51-2",
+    "smiles": "O|[Al](|O)|O",
+    "formula": "Al(OH)3",
+    "chemical_name": "Aluminum hydroxide"
+  },
+  {
+    "casid": "1344-28-1",
+    "smiles": "O=[Al]O[Al]=O",
+    "formula": "Al2O3",
+    "chemical_name": "Aluminum oxide"
+  },
+  {
+    "casid": "7664-41-7",
+    "smiles": "N",
+    "formula": "NH3",
+    "chemical_name": "Ammonia"
+  },
+  {
+    "casid": "12125-02-9",
+    "smiles": "[NH4+].[Cl-]",
+    "formula": "NH4Cl",
+    "chemical_name": "Ammonium chloride"
+  },
+  {
+    "casid": "6484-52-2",
+    "smiles": "[NH4+].[O-][N+]([O-])=O",
+    "formula": "NH4NO3",
+    "chemical_name": "Ammonium nitrate"
+  },
+  {
+    "casid": "7783-20-2",
+    "smiles": "N.N.O[S](O)(=O)=O",
+    "formula": "(NH4)2SO4",
+    "chemical_name": "Ammonium sulfate"
+  },
+  {
+    "casid": "62-53-3",
+    "smiles": "Nc1ccccc1",
+    "formula": "C6H7N",
+    "chemical_name": "Aniline"
+  },
+  {
+    "casid": "7440-37-1",
+    "smiles": "[Ar]",
+    "formula": "Ar",
+    "chemical_name": "Argon"
+  },
+  {
+    "casid": "7440-38-2",
+    "smiles": "[As]",
+    "formula": "As",
+    "chemical_name": "Arsenic"
+  },
+  {
+    "casid": "50-81-7",
+    "smiles": "OCC(O)C1OC(=C(O)C1=O)O",
+    "formula": "C6H8O6",
+    "chemical_name": "Ascorbic acid"
+  },
+  {
+    "casid": "50-78-2",
+    "smiles": "CC(=O)Oc1ccccc1C(O)=O",
+    "formula": "C9H8O4",
+    "chemical_name": "Aspirin"
+  },
+  {
+    "casid": "7727-43-7",
+    "smiles": "[Ba++].[O-][S]([O-])(=O)=O",
+    "formula": "BaSO4",
+    "chemical_name": "Barium sulfate"
+  },
+  {
+    "casid": "100-52-7",
+    "smiles": "O=Cc1ccccc1",
+    "formula": "C7H6O",
+    "chemical_name": "Benzaldehyde"
+  },
+  {
+    "casid": "71-43-2",
+    "smiles": "c1ccccc1",
+    "formula": "C6H6",
+    "chemical_name": "Benzene"
+  },
+  {
+    "casid": "65-85-0",
+    "smiles": "OC(=O)c1ccccc1",
+    "formula": "C7H6O2",
+    "chemical_name": "Benzoic acid"
+  },
+  {
+    "casid": "106-51-4",
+    "smiles": "O=C1C=CC(=O)C=C1",
+    "formula": "C6H4O2",
+    "chemical_name": "Benzoquinone"
+  },
+  {
+    "casid": "7440-41-7",
+    "smiles": "[Be]",
+    "formula": "Be",
+    "chemical_name": "Beryllium"
+  },
+  {
+    "casid": "1304-56-9",
+    "smiles": "[Be]=O",
+    "formula": "BeO",
+    "chemical_name": "Beryllium oxide"
+  },
+  {
+    "casid": "1303-96-4",
+    "smiles": "O.O.O.O.O.O.O.O.O.O.[Na+].[Na+].[O-]B(OB=O)OB([O-])OB=O",
+    "formula": "Na2B4O7\u00b710H2O",
+    "chemical_name": "Borax"
+  },
+  {
+    "casid": "10043-35-3",
+    "smiles": "OB(O)O",
+    "formula": "H3BO3",
+    "chemical_name": "Boric acid"
+  },
+  {
+    "casid": "7440-42-8",
+    "smiles": "[B]",
+    "formula": "B",
+    "chemical_name": "Boron"
+  },
+  {
+    "casid": "7726-95-6",
+    "smiles": "[Br-]",
+    "formula": "Br2",
+    "chemical_name": "Bromine"
+  },
+  {
+    "casid": "106-97-8",
+    "smiles": "CCCC",
+    "formula": "C4H10",
+    "chemical_name": "Butane"
+  },
+  {
+    "casid": "71-36-3",
+    "smiles": "CCCCO",
+    "formula": "C4H10O",
+    "chemical_name": "Butanol"
+  },
+  {
+    "casid": "58-08-2",
+    "smiles": "Cn1cnc2N(C)C(=O)N(C)C(=O)c12",
+    "formula": "C8H10N4O2",
+    "chemical_name": "Caffeine"
+  },
+  {
+    "casid": "7440-70-2",
+    "smiles": "[Ca]",
+    "formula": "Ca",
+    "chemical_name": "Calcium"
+  },
+  {
+    "casid": "471-34-1",
+    "smiles": "[Ca++].[O-]C([O-])=O",
+    "formula": "CaCO3",
+    "chemical_name": "Calcium carbonate"
+  },
+  {
+    "casid": "10043-52-4",
+    "smiles": "[Cl-].[Cl-].[Ca++]",
+    "formula": "CaCl2",
+    "chemical_name": "Calcium chloride"
+  },
+  {
+    "casid": "1305-62-0",
+    "smiles": "[OH-].[OH-].[Ca++]",
+    "formula": "Ca(OH)2",
+    "chemical_name": "Calcium hydroxide"
+  },
+  {
+    "casid": "1305-78-8",
+    "smiles": "O=[Ca]",
+    "formula": "CaO",
+    "chemical_name": "Calcium oxide"
+  },
+  {
+    "casid": "7778-18-9",
+    "smiles": "[Ca++].[O-][S]([O-])(=O)=O",
+    "formula": "CaSO4",
+    "chemical_name": "Calcium sulfate"
+  },
+  {
+    "casid": "76-22-2",
+    "smiles": "CC1(C)C2CCC1(C)C(=O)C2",
+    "formula": "C10H16O",
+    "chemical_name": "Camphor"
+  },
+  {
+    "casid": "7440-44-0",
+    "smiles": "[C]",
+    "formula": "C",
+    "chemical_name": "Carbon"
+  },
+  {
+    "casid": "124-38-9",
+    "smiles": "O=C=O",
+    "formula": "CO2",
+    "chemical_name": "Carbon dioxide"
+  },
+  {
+    "casid": "630-08-0",
+    "smiles": "[C-]#[O+]",
+    "formula": "CO",
+    "chemical_name": "Carbon monoxide"
+  },
+  {
+    "casid": "56-23-5",
+    "smiles": "ClC(Cl)(Cl)Cl",
+    "formula": "CCl4",
+    "chemical_name": "Carbon tetrachloride"
+  },
+  {
+    "casid": "9004-34-6",
+    "smiles": "C(C1C@HO",
+    "formula": "(C6H10O5)n",
+    "chemical_name": "Cellulose"
+  },
+  {
+    "casid": "36653-82-4",
+    "smiles": "CCCCCCCCCCCCCCCCO",
+    "formula": "C16H34O",
+    "chemical_name": "Cetyl alcohol"
+  },
+  {
+    "casid": "7782-50-5",
+    "smiles": "ClCl",
+    "formula": "Cl2",
+    "chemical_name": "Chlorine"
+  },
+  {
+    "casid": "108-90-7",
+    "smiles": "Clc1ccccc1",
+    "formula": "C6H5Cl",
+    "chemical_name": "Chlorobenzene"
+  },
+  {
+    "casid": "67-66-3",
+    "smiles": "ClC(Cl)Cl",
+    "formula": "CHCl3",
+    "chemical_name": "Chloroform"
+  },
+  {
+    "casid": "57-88-5",
+    "smiles": "CC(C)CCC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C",
+    "formula": "C27H46O",
+    "chemical_name": "Cholesterol"
+  },
+  {
+    "casid": "7440-47-3",
+    "smiles": "[Cr]",
+    "formula": "Cr",
+    "chemical_name": "Chromium"
+  },
+  {
+    "casid": "104-55-2",
+    "smiles": "O=C/C=C/c1ccccc1",
+    "formula": "C9H8O",
+    "chemical_name": "Cinnamaldehyde"
+  },
+  {
+    "casid": "77-92-9",
+    "smiles": "OC(=O)CC(O)(CC(O)=O)C(O)=O",
+    "formula": "C6H8O7",
+    "chemical_name": "Citric acid"
+  },
+  {
+    "casid": "7440-48-4",
+    "smiles": "[Co]",
+    "formula": "Co",
+    "chemical_name": "Cobalt"
+  },
+  {
+    "casid": "7440-50-8",
+    "smiles": "[Cu]",
+    "formula": "Cu",
+    "chemical_name": "Copper"
+  },
+  {
+    "casid": "7758-98-7",
+    "smiles": "[Cu++].[O-][S]([O-])(=O)=O",
+    "formula": "CuSO4",
+    "chemical_name": "Copper sulfate"
+  },
+  {
+    "casid": "110-82-7",
+    "smiles": "C1CCCCC1",
+    "formula": "C6H12",
+    "chemical_name": "Cyclohexane"
+  },
+  {
+    "casid": "60-29-7",
+    "smiles": "CCOCC",
+    "formula": "C4H10O",
+    "chemical_name": "Diethyl ether"
+  },
+  {
+    "casid": "67-68-5",
+    "smiles": "C[S](C)=O",
+    "formula": "C2H6OS",
+    "chemical_name": "Dimethyl sulfoxide"
+  },
+  {
+    "casid": "10544-72-6",
+    "smiles": "[O-][N+](=O)[N+]([O-])=O",
+    "formula": "N2O4",
+    "chemical_name": "Dinitrogen tetroxide"
+  },
+  {
+    "casid": "101-84-8",
+    "smiles": "O(c1ccccc1)c2ccccc2",
+    "formula": "C12H10O",
+    "chemical_name": "Diphenyl ether"
+  },
+  {
+    "casid": "7558-79-4",
+    "smiles": "[Na+].[Na+].O[P]([O-])([O-])=O",
+    "formula": "Na2HPO4",
+    "chemical_name": "Disodium phosphate"
+  },
+  {
+    "casid": "112-40-3",
+    "smiles": "CCCCCCCCCCCC",
+    "formula": "C12H26",
+    "chemical_name": "Dodecane"
+  },
+  {
+    "casid": "50-99-7",
+    "smiles": "OCC1OC(O)C(O)C(O)C1O",
+    "formula": "C6H12O6",
+    "chemical_name": "Dextrose"
+  },
+  {
+    "casid": "64-17-5",
+    "smiles": "CCO",
+    "formula": "C2H5OH",
+    "chemical_name": "Ethanol"
+  },
+  {
+    "casid": "141-78-6",
+    "smiles": "CCOC(C)=O",
+    "formula": "C4H8O2",
+    "chemical_name": "Ethyl acetate"
+  },
+  {
+    "casid": "74-85-1",
+    "smiles": "C=C",
+    "formula": "C2H4",
+    "chemical_name": "Ethylene"
+  },
+  {
+    "casid": "107-21-1",
+    "smiles": "OCCO",
+    "formula": "C2H6O2",
+    "chemical_name": "Ethylene glycol"
+  },
+  {
+    "casid": "7705-08-0",
+    "smiles": "[Cl-].[Cl-].[Cl-].[Fe+3]",
+    "formula": "FeCl3",
+    "chemical_name": "Ferric chloride"
+  },
+  {
+    "casid": "7720-78-7",
+    "smiles": "[Fe++].[O-][S]([O-])(=O)=O",
+    "formula": "FeSO4",
+    "chemical_name": "Ferrous sulfate"
+  },
+  {
+    "casid": "7782-41-4",
+    "smiles": "FF",
+    "formula": "F2",
+    "chemical_name": "Fluorine"
+  },
+  {
+    "casid": "50-00-0",
+    "smiles": "C=O",
+    "formula": "CH2O",
+    "chemical_name": "Formaldehyde"
+  },
+  {
+    "casid": "64-18-6",
+    "smiles": "OC=O",
+    "formula": "CH2O2",
+    "chemical_name": "Formic acid"
+  },
+  {
+    "casid": "57-48-7",
+    "smiles": "OC[C@@H](O)[C@@H](O)[C@H](O)C(=O)CO",
+    "formula": "C6H12O6",
+    "chemical_name": "Fructose"
+  },
+  {
+    "casid": "110-17-8",
+    "smiles": "OC(=O)\\C=C\\C(O)=O",
+    "formula": "C4H4O4",
+    "chemical_name": "Fumaric acid"
+  },
+  {
+    "casid": "7440-55-3",
+    "smiles": "[Ga]",
+    "formula": "Ga",
+    "chemical_name": "Gallium"
+  },
+  {
+    "casid": "7440-56-4",
+    "smiles": "[Ge]",
+    "formula": "Ge",
+    "chemical_name": "Germanium"
+  },
+  {
+    "casid": "56-40-6",
+    "smiles": "NCC(O)=O",
+    "formula": "C2H5NO2",
+    "chemical_name": "Glycine"
+  },
+  {
+    "casid": "56-81-5",
+    "smiles": "OCC(O)CO",
+    "formula": "C3H8O3",
+    "chemical_name": "Glycerol"
+  },
+  {
+    "casid": "7440-59-7",
+    "smiles": "[He]",
+    "formula": "He",
+    "chemical_name": "Helium"
+  },
+  {
+    "casid": "142-82-5",
+    "smiles": "CCCCCCC",
+    "formula": "C7H16",
+    "chemical_name": "Heptane"
+  },
+  {
+    "casid": "110-54-3",
+    "smiles": "CCCCCC",
+    "formula": "C6H14",
+    "chemical_name": "Hexane"
+  },
+  {
+    "casid": "526-95-4",
+    "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+    "formula": "C6H12O7",
+    "chemical_name": "Hexonic Acid"
+  },
+  {
+    "casid": "302-01-2",
+    "smiles": "NN",
+    "formula": "N2H4",
+    "chemical_name": "Hydrazine"
+  },
+  {
+    "casid": "7647-01-0",
+    "smiles": "[H+].[Cl-]",
+    "formula": "HCl",
+    "chemical_name": "Hydrochloric acid"
+  },
+  {
+    "casid": "7664-39-3",
+    "smiles": "[H+].[F-]",
+    "formula": "HF",
+    "chemical_name": "Hydrofluoric acid"
+  },
+  {
+    "casid": "1333-74-0",
+    "smiles": "[H]",
+    "formula": "H2",
+    "chemical_name": "Hydrogen"
+  },
+  {
+    "casid": "7722-84-1",
+    "smiles": "OO",
+    "formula": "H2O2",
+    "chemical_name": "Hydrogen peroxide"
+  },
+  {
+    "casid": "15687-27-1",
+    "smiles": "CC(C)Cc1ccc(cc1)C(C)C(O)=O",
+    "formula": "C13H18O2",
+    "chemical_name": "Ibuprofen"
+  },
+  {
+    "casid": "75-47-8",
+    "smiles": "IC(I)I",
+    "formula": "CHI3",
+    "chemical_name": "Iodoform"
+  },
+  {
+    "casid": "7439-89-6",
+    "smiles": "[Fe]",
+    "formula": "Fe",
+    "chemical_name": "Iron"
+  },
+  {
+    "casid": "1309-37-1",
+    "smiles": "O.[O--].[O--].[O--].[Fe+3].[Fe+3]",
+    "formula": "Fe2O3",
+    "chemical_name": "Iron oxide"
+  },
+  {
+    "casid": "123-51-3",
+    "smiles": "CC(C)CCO",
+    "formula": "C5H12O",
+    "chemical_name": "Isoamyl alcohol"
+  },
+  {
+    "casid": "75-28-5",
+    "smiles": "CC(C)C",
+    "formula": "C4H10",
+    "chemical_name": "Isobutane"
+  },
+  {
+    "casid": "67-63-0",
+    "smiles": "CC(C)O",
+    "formula": "C3H8O",
+    "chemical_name": "Isopropanol"
+  },
+  {
+    "casid": "7439-90-9",
+    "smiles": "[Kr]",
+    "formula": "Kr",
+    "chemical_name": "Krypton"
+  },
+  {
+    "casid": "50-21-5",
+    "smiles": "CC(O)C(O)=O",
+    "formula": "C3H6O3",
+    "chemical_name": "Lactic acid"
+  },
+  {
+    "casid": "63-42-3",
+    "smiles": "OCC1OC(OC2C(O)C(O)C(O)OC2CO)C(O)C(O)C1O",
+    "formula": "C12H22O11",
+    "chemical_name": "Lactose"
+  },
+  {
+    "casid": "143-07-7",
+    "smiles": "CCCCCCCCCCCC(O)=O",
+    "formula": "C12H24O2",
+    "chemical_name": "Lauric acid"
+  },
+  {
+    "casid": "301-04-2",
+    "smiles": "[Pb++].CC([O-])=O.CC([O-])=O",
+    "formula": "Pb(C2H3O2)2",
+    "chemical_name": "Lead acetate"
+  },
+  {
+    "casid": "5989-27-5",
+    "smiles": "CC(=C)[C@@H]1CCC(=CC1)C",
+    "formula": "C10H16",
+    "chemical_name": "Limonene"
+  },
+  {
+    "casid": "7439-93-2",
+    "smiles": "[Li]",
+    "formula": "Li",
+    "chemical_name": "Lithium"
+  },
+  {
+    "casid": "554-13-2",
+    "smiles": "[Li+].[Li+].[O-]C([O-])=O",
+    "formula": "Li2CO3",
+    "chemical_name": "Lithium carbonate"
+  },
+  {
+    "casid": "7439-95-4",
+    "smiles": "[Mg++]",
+    "formula": "Mg",
+    "chemical_name": "Magnesium"
+  },
+  {
+    "casid": "7786-30-3",
+    "smiles": "[Mg++].[Cl-].[Cl-]",
+    "formula": "MgCl2",
+    "chemical_name": "Magnesium chloride"
+  },
+  {
+    "casid": "1309-42-8",
+    "smiles": "[OH-].[OH-].[Mg++]",
+    "formula": "Mg(OH)2",
+    "chemical_name": "Magnesium hydroxide"
+  },
+  {
+    "casid": "1309-48-4",
+    "smiles": "O=[Mg]",
+    "formula": "MgO",
+    "chemical_name": "Magnesium oxide"
+  },
+  {
+    "casid": "7487-88-9",
+    "smiles": "[Mg++].[O-][S]([O-])(=O)=O",
+    "formula": "MgSO4",
+    "chemical_name": "Magnesium sulfate"
+  },
+  {
+    "casid": "6915-15-7",
+    "smiles": "OC(CC(O)=O)C(O)=O",
+    "formula": "C4H6O5",
+    "chemical_name": "Malic acid"
+  },
+  {
+    "casid": "7439-96-5",
+    "smiles": "[Mn]",
+    "formula": "Mn",
+    "chemical_name": "Manganese"
+  },
+  {
+    "casid": "89-78-1",
+    "smiles": "CC(C)[C@@H]1CC[C@@H](C)C[C@H]1O",
+    "formula": "C10H20O",
+    "chemical_name": "Menthol"
+  },
+  {
+    "casid": "74-82-8",
+    "smiles": "C",
+    "formula": "CH4",
+    "chemical_name": "Methane"
+  },
+  {
+    "casid": "67-56-1",
+    "smiles": "CO",
+    "formula": "CH3OH",
+    "chemical_name": "Methanol"
+  },
+  {
+    "casid": "78-93-3",
+    "smiles": "CCC(C)=O",
+    "formula": "C4H8O",
+    "chemical_name": "Methyl ethyl ketone"
+  },
+  {
+    "casid": "119-36-8",
+    "smiles": "COC(=O)c1ccccc1O",
+    "formula": "C8H8O3",
+    "chemical_name": "Methyl salicylate"
+  },
+  {
+    "casid": "7439-98-7",
+    "smiles": "[Mo]",
+    "formula": "Mo",
+    "chemical_name": "Molybdenum"
+  },
+  {
+    "casid": "91-20-3",
+    "smiles": "c1ccc2ccccc2c1",
+    "formula": "C10H8",
+    "chemical_name": "Naphthalene"
+  },
+  {
+    "casid": "7440-01-9",
+    "smiles": "[Ne]",
+    "formula": "Ne",
+    "chemical_name": "Neon"
+  },
+  {
+    "casid": "7440-02-0",
+    "smiles": "[Ni]",
+    "formula": "Ni",
+    "chemical_name": "Nickel"
+  },
+  {
+    "casid": "54-11-5",
+    "smiles": "CN1CCC[C@H]1c2cccnc2",
+    "formula": "C10H14N2",
+    "chemical_name": "Nicotine"
+  },
+  {
+    "casid": "7697-37-2",
+    "smiles": "O[N+]([O-])=O",
+    "formula": "HNO3",
+    "chemical_name": "Nitric acid"
+  },
+  {
+    "casid": "98-95-3",
+    "smiles": "[O-][N+](=O)c1ccccc1",
+    "formula": "C6H5NO2",
+    "chemical_name": "Nitrobenzene"
+  },
+  {
+    "casid": "55-63-0",
+    "smiles": "[O-][N+](=O)OCC(CO[N+]([O-])=O)O[N+]([O-])=O",
+    "formula": "C3H5N3O9",
+    "chemical_name": "Nitroglycerin"
+  },
+  {
+    "casid": "10024-97-2",
+    "smiles": "[N-]=[N+]=O",
+    "formula": "N2O",
+    "chemical_name": "Nitrous oxide"
+  },
+  {
+    "casid": "25038-54-4",
+    "smiles": "CCCCCC(N)=O",
+    "formula": "(C6H11NO)n",
+    "chemical_name": "Nylon 6"
+  },
+  {
+    "casid": "111-65-9",
+    "smiles": "CCCCCCCC",
+    "formula": "C8H18",
+    "chemical_name": "Octane"
+  },
+  {
+    "casid": "112-80-1",
+    "smiles": "CCCCCCCC/C=C/CCCCCCCC(O)=O",
+    "formula": "C18H34O2",
+    "chemical_name": "Oleic acid"
+  },
+  {
+    "casid": "144-62-7",
+    "smiles": "OC(=O)C(O)=O",
+    "formula": "C2H2O4",
+    "chemical_name": "Oxalic acid"
+  },
+  {
+    "casid": "7782-44-7",
+    "smiles": "O=O",
+    "formula": "O2",
+    "chemical_name": "Oxygen"
+  },
+  {
+    "casid": "57-10-3",
+    "smiles": "CCCCCCCCCCCCCCCC(O)=O",
+    "formula": "C16H32O2",
+    "chemical_name": "Palmitic acid"
+  },
+  {
+    "casid": "109-66-0",
+    "smiles": "CCCCC",
+    "formula": "C5H12",
+    "chemical_name": "Pentane"
+  },
+  {
+    "casid": "108-95-2",
+    "smiles": "Oc1ccccc1",
+    "formula": "C6H6O",
+    "chemical_name": "Phenol"
+  },
+  {
+    "casid": "60-12-8",
+    "smiles": "OCCc1ccccc1",
+    "formula": "C8H10O",
+    "chemical_name": "Phenylethanol"
+  },
+  {
+    "casid": "7664-38-2",
+    "smiles": "O[P](O)(O)=O",
+    "formula": "H3PO4",
+    "chemical_name": "Phosphoric acid"
+  },
+  {
+    "casid": "85-44-9",
+    "smiles": "O=C1OC(=O)c2ccccc12",
+    "formula": "C8H4O3",
+    "chemical_name": "Phthalic anhydride"
+  },
+  {
+    "casid": "7723-14-0",
+    "smiles": "[P]",
+    "formula": "P",
+    "chemical_name": "Phosphorus"
+  },
+  {
+    "casid": "9002-88-4",
+    "smiles": "C=C",
+    "formula": "(C2H4)n",
+    "chemical_name": "Polyethylene"
+  },
+  {
+    "casid": "9003-07-0",
+    "smiles": "CCCCCCCC1OC1CCCCCCCCCCCC(O)=O",
+    "formula": "(C3H6)n",
+    "chemical_name": "Polypropylene"
+  },
+  {
+    "casid": "9003-53-6",
+    "smiles": "C=Cc1ccccc1",
+    "formula": "(C8H8)n",
+    "chemical_name": "Polystyrene"
+  },
+  {
+    "casid": "9002-86-2",
+    "smiles": "ClC=C",
+    "formula": "(C2H3Cl)n",
+    "chemical_name": "Polyvinyl chloride"
+  },
+  {
+    "casid": "7440-09-7",
+    "smiles": "[K+]",
+    "formula": "K",
+    "chemical_name": "Potassium"
+  },
+  {
+    "casid": "7758-02-3",
+    "smiles": "[K+].[Br-]",
+    "formula": "KBr",
+    "chemical_name": "Potassium bromide"
+  },
+  {
+    "casid": "584-08-7",
+    "smiles": "[K+].[K+].[O-]C([O-])=O",
+    "formula": "K2CO3",
+    "chemical_name": "Potassium carbonate"
+  },
+  {
+    "casid": "7447-40-7",
+    "smiles": "[Cl-].[K+]",
+    "formula": "KCl",
+    "chemical_name": "Potassium chloride"
+  },
+  {
+    "casid": "1310-58-3",
+    "smiles": "[OH-].[K+]",
+    "formula": "KOH",
+    "chemical_name": "Potassium hydroxide"
+  },
+  {
+    "casid": "7681-11-0",
+    "smiles": "[K+].[I-]",
+    "formula": "KI",
+    "chemical_name": "Potassium iodide"
+  },
+  {
+    "casid": "7757-79-1",
+    "smiles": "[K+].[O-][N+]([O-])=O",
+    "formula": "KNO3",
+    "chemical_name": "Potassium nitrate"
+  },
+  {
+    "casid": "74-98-6",
+    "smiles": "CCC",
+    "formula": "C3H8",
+    "chemical_name": "Propane"
+  },
+  {
+    "casid": "115-07-1",
+    "smiles": "CC=C",
+    "formula": "C3H6",
+    "chemical_name": "Propylene"
+  },
+  {
+    "casid": "110-86-1",
+    "smiles": "c1ccncc1",
+    "formula": "C5H5N",
+    "chemical_name": "Pyridine"
+  },
+  {
+    "casid": "7440-17-7",
+    "smiles": "[Rb]",
+    "formula": "Rb",
+    "chemical_name": "Rubidium"
+  },
+  {
+    "casid": "90-02-8",
+    "smiles": "Oc1ccccc1C=O",
+    "formula": "C7H6O2",
+    "chemical_name": "Salicylaldehyde"
+  },
+  {
+    "casid": "69-72-7",
+    "smiles": "OC(=O)c1ccccc1O",
+    "formula": "C7H6O3",
+    "chemical_name": "Salicylic acid"
+  },
+  {
+    "casid": "7782-49-2",
+    "smiles": "[Se]",
+    "formula": "Se",
+    "chemical_name": "Selenium"
+  },
+  {
+    "casid": "7440-21-3",
+    "smiles": "[Si]",
+    "formula": "Si",
+    "chemical_name": "Silicon"
+  },
+  {
+    "casid": "7631-86-9",
+    "smiles": "O=[Si]=O",
+    "formula": "SiO2",
+    "chemical_name": "Silicon dioxide"
+  },
+  {
+    "casid": "7440-22-4",
+    "smiles": "[Ag]",
+    "formula": "Ag",
+    "chemical_name": "Silver"
+  },
+  {
+    "casid": "7761-88-8",
+    "smiles": "[Ag+].[O-][N+]([O-])=O",
+    "formula": "AgNO3",
+    "chemical_name": "Silver nitrate"
+  },
+  {
+    "casid": "7440-23-5",
+    "smiles": "[Na+]",
+    "formula": "Na",
+    "chemical_name": "Sodium"
+  },
+  {
+    "casid": "127-09-3",
+    "smiles": "[Na+].CC([O-])=O",
+    "formula": "NaC2H3O2",
+    "chemical_name": "Sodium acetate"
+  },
+  {
+    "casid": "144-55-8",
+    "smiles": "[Na+].OC([O-])=O",
+    "formula": "NaHCO3",
+    "chemical_name": "Sodium bicarbonate"
+  },
+  {
+    "casid": "497-19-8",
+    "smiles": "[Na+].[Na+].[O-]C([O-])=O",
+    "formula": "Na2CO3",
+    "chemical_name": "Sodium carbonate"
+  },
+  {
+    "casid": "7647-14-5",
+    "smiles": "[Na+].[Cl-]",
+    "formula": "NaCl",
+    "chemical_name": "Sodium chloride"
+  },
+  {
+    "casid": "7681-49-4",
+    "smiles": "[F-].[Na+]",
+    "formula": "NaF",
+    "chemical_name": "Sodium fluoride"
+  },
+  {
+    "casid": "1310-73-2",
+    "smiles": "[OH-].[Na+]",
+    "formula": "NaOH",
+    "chemical_name": "Sodium hydroxide"
+  },
+  {
+    "casid": "7681-52-9",
+    "smiles": "[Na+].[O-]Cl",
+    "formula": "NaClO",
+    "chemical_name": "Sodium hypochlorite"
+  },
+  {
+    "casid": "6834-92-0",
+    "smiles": "[Na+].[Na+].[O-][Si]([O-])=O",
+    "formula": "Na2SiO3",
+    "chemical_name": "Sodium silicate"
+  },
+  {
+    "casid": "7757-82-6",
+    "smiles": "[Na+].[Na+].[O-][S]([O-])(=O)=O",
+    "formula": "Na2SO4",
+    "chemical_name": "Sodium sulfate"
+  },
+  {
+    "casid": "9005-25-8",
+    "smiles": "CO[C@H]1OC(CO)[C@@H](O[C@H]2OC(CO[C@H]3OC(CO)[C@@H](OC)[C@H](O)C3O)[C@@H](O[C@H]4OC(CO)[C@@H](OC)[C@H](O)C4O)[C@H](O)C2O)[C@H](O)C1O.OCC5O[C@H](O[C@H]6[C@H](O)C(O)[C@@H](O[C@H]7[C@H](O)C(O)[C@@H](O)OC7CO)OC6CO)C(O)[C@@H](O)[C@@H]5O",
+    "formula": "(C6H10O5)n",
+    "chemical_name": "Starch"
+  },
+  {
+    "casid": "57-11-4",
+    "smiles": "CCCCCCCCCCCCCCCCCC(O)=O",
+    "formula": "C18H36O2",
+    "chemical_name": "Stearic acid"
+  },
+  {
+    "casid": "7440-24-6",
+    "smiles": "[Sr]",
+    "formula": "Sr",
+    "chemical_name": "Strontium"
+  },
+  {
+    "casid": "100-42-5",
+    "smiles": "C=Cc1ccccc1",
+    "formula": "C8H8",
+    "chemical_name": "Styrene"
+  },
+  {
+    "casid": "57-50-1",
+    "smiles": "OC[C@H]1O[C@H](O[C@]2(CO)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+    "formula": "C12H22O11",
+    "chemical_name": "Sucrose"
+  },
+  {
+    "casid": "7704-34-9",
+    "smiles": "S",
+    "formula": "S",
+    "chemical_name": "Sulfur"
+  },
+  {
+    "casid": "7446-09-5",
+    "smiles": "O=[S]=O",
+    "formula": "SO2",
+    "chemical_name": "Sulfur dioxide"
+  },
+  {
+    "casid": "7664-93-9",
+    "smiles": "O[S](O)(=O)=O",
+    "formula": "H2SO4",
+    "chemical_name": "Sulfuric acid"
+  },
+  {
+    "casid": "87-69-4",
+    "smiles": "OC(C(O)C(O)=O)C(O)=O",
+    "formula": "C4H6O6",
+    "chemical_name": "Tartaric acid"
+  },
+  {
+    "casid": "7440-32-6",
+    "smiles": "[Ti]",
+    "formula": "Ti",
+    "chemical_name": "Titanium"
+  },
+  {
+    "casid": "13463-67-7",
+    "smiles": "O=[Ti]=O",
+    "formula": "TiO2",
+    "chemical_name": "Titanium dioxide"
+  },
+  {
+    "casid": "108-88-3",
+    "smiles": "Cc1ccccc1",
+    "formula": "C7H8",
+    "chemical_name": "Toluene"
+  },
+  {
+    "casid": "584-84-9",
+    "smiles": "Cc1ccc(cc1N=C=O)N=C=O",
+    "formula": "C9H6N2O2",
+    "chemical_name": "Toluene diisocyanate"
+  },
+  {
+    "casid": "79-01-6",
+    "smiles": "ClC=C(Cl)Cl",
+    "formula": "C2HCl3",
+    "chemical_name": "Trichloroethylene"
+  },
+  {
+    "casid": "121-44-8",
+    "smiles": "CCN(CC)CC",
+    "formula": "C6H15N",
+    "chemical_name": "Triethylamine"
+  },
+  {
+    "casid": "57-13-6",
+    "smiles": "NC(N)=O",
+    "formula": "CH4N2O",
+    "chemical_name": "Urea"
+  },
+  {
+    "casid": "69-93-2",
+    "smiles": "O=C1NC(=O)C2=C(N1)NC(=O)N2",
+    "formula": "C5H4N4O3",
+    "chemical_name": "Uric acid"
+  },
+  {
+    "casid": "7440-62-2",
+    "smiles": "[V]",
+    "formula": "V",
+    "chemical_name": "Vanadium"
+  },
+  {
+    "casid": "121-33-5",
+    "smiles": "COc1cc(C=O)ccc1O",
+    "formula": "C8H8O3",
+    "chemical_name": "Vanillin"
+  },
+  {
+    "casid": "108-05-4",
+    "smiles": "CC(=O)OC=C",
+    "formula": "C4H6O2",
+    "chemical_name": "Vinyl acetate"
+  },
+  {
+    "casid": "67-97-0",
+    "smiles": "CC(C)CCC[C@@H](C)[C@H]1CC[C@H]2\\C(CCC[C@]12C)=C\\C=C3/C[C@@H](O)CCC3=C",
+    "formula": "C27H44O",
+    "chemical_name": "Vitamin D3"
+  },
+  {
+    "casid": "7732-18-5",
+    "smiles": "O",
+    "formula": "H2O",
+    "chemical_name": "Water"
+  },
+  {
+    "casid": "1330-20-7",
+    "smiles": "Cc1cccc(C)c1",
+    "formula": "C8H10",
+    "chemical_name": "Xylene"
+  },
+  {
+    "casid": "7440-66-6",
+    "smiles": "[Zn]",
+    "formula": "Zn",
+    "chemical_name": "Zinc"
+  },
+  {
+    "casid": "1314-13-2",
+    "smiles": "O=[Zn]",
+    "formula": "ZnO",
+    "chemical_name": "Zinc oxide"
+  },
+  {
+    "casid": "7733-02-0",
+    "smiles": "[Zn++].[O-][S]([O-])(=O)=O",
+    "formula": "ZnSO4",
+    "chemical_name": "Zinc sulfate"
+  },
+  {
+    "casid": "7440-67-7",
+    "smiles": "[Zr]",
+    "formula": "Zr",
+    "chemical_name": "Zirconium"
+  }
+]

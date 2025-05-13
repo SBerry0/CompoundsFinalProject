@@ -1,0 +1,5656 @@
+[
+  {
+    "id": "RXN-001",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      }
+    ],
+    "products": [
+      {
+        "casid": 8857,
+        "smiles": "CC(=O)OCC",
+        "formula": "C4H8O2",
+        "chemical_name": "Ethyl Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "H2SO4 catalyst, 60-70°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-002",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-003",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6116,
+        "smiles": "[Ca+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6CaO4",
+        "chemical_name": "Calcium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-004",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Cu catalyst, 300°C or enzymatic",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-005",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6337,
+        "smiles": "CCCl",
+        "formula": "C2H5Cl",
+        "chemical_name": "Chloroethane"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "ZnCl2 catalyst, reflux",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-006",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5284359,
+        "smiles": "[Ca+2].[Cl-].[Cl-]",
+        "formula": "CaCl2",
+        "chemical_name": "Calcium Chloride"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-007",
+    "reactants": [
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-008",
+    "reactants": [
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24436,
+        "smiles": "[Na+].[Na+].[O-]S(=O)(=O)[O-]",
+        "formula": "Na2O4S",
+        "chemical_name": "Sodium Sulfate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-009",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Fermentation",
+    "conditions": "Yeast, anaerobic, 30°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-010",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 5462224,
+        "smiles": "[Mg]",
+        "formula": "Mg",
+        "chemical_name": "Magnesium"
+      }
+    ],
+    "products": [
+      {
+        "casid": 8896,
+        "smiles": "[Mg+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6MgO4",
+        "chemical_name": "Magnesium Acetate"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-011",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 10340,
+        "smiles": "[Na+].[Na+].[O-]C([O-])=O",
+        "formula": "CNa2O3",
+        "chemical_name": "Sodium Carbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-012",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6325,
+        "smiles": "C=C",
+        "formula": "C2H4",
+        "chemical_name": "Ethylene"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Dehydration",
+    "conditions": "Concentrated H2SO4, 170°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-013",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 14778,
+        "smiles": "[Ca]=O",
+        "formula": "CaO",
+        "chemical_name": "1305-78-8"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Thermal Decomposition",
+    "conditions": "High temperature (~900°C)",
+    "reference": "NIST WebBook"
+  },
+  {
+    "id": "RXN-014",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 24819,
+        "smiles": "P(Cl)(Cl)(Cl)(Cl)Cl",
+        "formula": "Cl5P",
+        "chemical_name": "Phosphorus Pentachloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6367,
+        "smiles": "CC(=O)Cl",
+        "formula": "C2H3ClO",
+        "chemical_name": "Acetyl Chloride"
+      },
+      {
+        "casid": 24813,
+        "smiles": "O=P(Cl)(Cl)Cl",
+        "formula": "Cl3OP",
+        "chemical_name": "Phosphorus Oxychloride"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "Anhydrous conditions, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-015",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 5360545,
+        "smiles": "[Na]",
+        "formula": "Na",
+        "chemical_name": "Sodium"
+      },
+      {
+        "casid": 5360545,
+        "smiles": "[Na]",
+        "formula": "Na",
+        "chemical_name": "Sodium"
+      }
+    ],
+    "products": [
+      {
+        "casid": 2723922,
+        "smiles": "CC[O-].[Na+]",
+        "formula": "C2H5NaO",
+        "chemical_name": "Sodium Ethoxide"
+      },
+      {
+        "casid": 2723922,
+        "smiles": "CC[O-].[Na+]",
+        "formula": "C2H5NaO",
+        "chemical_name": "Sodium Ethoxide"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Anhydrous ethanol, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-016",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517165,
+        "smiles": "CC(=O)[O-].[NH4+]",
+        "formula": "C2H7NO2",
+        "chemical_name": "Ammonium Acetate"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-017",
+    "reactants": [
+      {
+        "casid": 23925,
+        "smiles": "[Fe]",
+        "formula": "Fe",
+        "chemical_name": "Iron"
+      },
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 18344,
+        "smiles": "[Fe+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6FeO4",
+        "chemical_name": "Iron(Ii) Acetate"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-018",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Combustion",
+    "conditions": "Excess oxygen, ignition",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-019",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6116,
+        "smiles": "[Ca+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6CaO4",
+        "chemical_name": "Calcium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-020",
+    "reactants": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 24470,
+        "smiles": "[Ag+].[O-][N+](=O)[O-]",
+        "formula": "AgNO3",
+        "chemical_name": "Silver Nitrate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24561,
+        "smiles": "[Ag]Cl",
+        "formula": "AgCl",
+        "chemical_name": "Silver Chloride"
+      },
+      {
+        "casid": 24268,
+        "smiles": "[Na+].[O-][N+](=O)[O-]",
+        "formula": "NNaO3",
+        "chemical_name": "Sodium Nitrate"
+      }
+    ],
+    "reaction_type": "Precipitation",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-021",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 14797,
+        "smiles": "[OH-].[K+]",
+        "formula": "HKO",
+        "chemical_name": "Potassium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517044,
+        "smiles": "CC(=O)[O-].[K+]",
+        "formula": "C2H3KO2",
+        "chemical_name": "Potassium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-022",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 24408,
+        "smiles": "BrBr",
+        "formula": "Br2",
+        "chemical_name": "Bromine"
+      }
+    ],
+    "products": [
+      {
+        "casid": 177,
+        "smiles": "CC=O",
+        "formula": "C2H4O",
+        "chemical_name": "Acetaldehyde"
+      },
+      {
+        "casid": 22169024,
+        "smiles": "[Br-].[H+]",
+        "formula": "BrH",
+        "chemical_name": "Hydrogen Bromide"
+      },
+      {
+        "casid": 22169024,
+        "smiles": "[Br-].[H+]",
+        "formula": "BrH",
+        "chemical_name": "Hydrogen Bromide"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-023",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24497,
+        "smiles": "[Ca+2].[O-]S(=O)(=O)[O-]",
+        "formula": "CaO4S",
+        "chemical_name": "Calcium Sulfate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-024",
+    "reactants": [
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      }
+    ],
+    "products": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "reaction_type": "Incomplete Esterification",
+    "conditions": "H2SO4 catalyst, 140°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-025",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 516892,
+        "smiles": "[Na+].[O-]C(=O)O",
+        "formula": "CHNaO3",
+        "chemical_name": "Sodium Bicarbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Bicarbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-026",
+    "reactants": [
+      {
+        "casid": 23925,
+        "smiles": "[Fe]",
+        "formula": "Fe",
+        "chemical_name": "Iron"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 10329304,
+        "smiles": "[Fe+2].[Cl-].[Cl-]",
+        "formula": "Cl2Fe",
+        "chemical_name": "Mfcd00011004"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-027",
+    "reactants": [
+      {
+        "casid": 23925,
+        "smiles": "[Fe]",
+        "formula": "Fe",
+        "chemical_name": "Iron"
+      },
+      {
+        "casid": 23925,
+        "smiles": "[Fe]",
+        "formula": "Fe",
+        "chemical_name": "Iron"
+      },
+      {
+        "casid": 23925,
+        "smiles": "[Fe]",
+        "formula": "Fe",
+        "chemical_name": "Iron"
+      },
+      {
+        "casid": 23925,
+        "smiles": "[Fe]",
+        "formula": "Fe",
+        "chemical_name": "Iron"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 14833,
+        "smiles": "[Fe+3].[Fe+3].[O-2].[O-2].[O-2]",
+        "formula": "Fe2O3",
+        "chemical_name": "Hematite"
+      },
+      {
+        "casid": 14833,
+        "smiles": "[Fe+3].[Fe+3].[O-2].[O-2].[O-2]",
+        "formula": "Fe2O3",
+        "chemical_name": "Hematite"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Air, high temperature",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-028",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 6367,
+        "smiles": "CC(=O)Cl",
+        "formula": "C2H3ClO",
+        "chemical_name": "Acetyl Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 8857,
+        "smiles": "CC(=O)OCC",
+        "formula": "C4H8O2",
+        "chemical_name": "Ethyl Acetate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "Anhydrous conditions, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-029",
+    "reactants": [
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-030",
+    "reactants": [
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5284359,
+        "smiles": "[Ca+2].[Cl-].[Cl-]",
+        "formula": "CaCl2",
+        "chemical_name": "Calcium Chloride"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-031",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 241,
+        "smiles": "c1ccccc1",
+        "formula": "C6H6",
+        "chemical_name": "Benzene"
+      }
+    ],
+    "products": [
+      {
+        "casid": 7410,
+        "smiles": "CC(=O)c1ccccc1",
+        "formula": "C8H8O",
+        "chemical_name": "Acetophenone"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Friedel-Crafts Acylation",
+    "conditions": "AlCl3 catalyst, 80°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-032",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 516875,
+        "smiles": "[O-][Mn](=O)(=O)=O.[K+]",
+        "formula": "KMnO4",
+        "chemical_name": "Potassium Permanganate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Alkaline solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-033",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24963,
+        "smiles": "[Ca+2].[O-][N+](=O)[O-].[O-][N+](=O)[O-]",
+        "formula": "CaN2O6",
+        "chemical_name": "Calcium Nitrate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-034",
+    "reactants": [
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24497,
+        "smiles": "[Ca+2].[O-]S(=O)(=O)[O-]",
+        "formula": "CaO4S",
+        "chemical_name": "Calcium Sulfate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-035",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 23994,
+        "smiles": "[Zn]",
+        "formula": "Zn",
+        "chemical_name": "Zinc"
+      }
+    ],
+    "products": [
+      {
+        "casid": 11192,
+        "smiles": "[Zn+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6O4Zn",
+        "chemical_name": "Zinc Acetate"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-036",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Combustion",
+    "conditions": "Excess oxygen, ignition",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-037",
+    "reactants": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 516919,
+        "smiles": "[Na+].[O-]S(=O)(=O)O",
+        "formula": "HNaO4S",
+        "chemical_name": "Sodium Hydrogen Sulfate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Acid-Salt",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-038",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 24470,
+        "smiles": "[Ag+].[O-][N+](=O)[O-]",
+        "formula": "AgNO3",
+        "chemical_name": "Silver Nitrate"
+      },
+      {
+        "casid": 24470,
+        "smiles": "[Ag+].[O-][N+](=O)[O-]",
+        "formula": "AgNO3",
+        "chemical_name": "Silver Nitrate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 23954,
+        "smiles": "[Ag]",
+        "formula": "Ag",
+        "chemical_name": "Silver"
+      },
+      {
+        "casid": 23954,
+        "smiles": "[Ag]",
+        "formula": "Ag",
+        "chemical_name": "Silver"
+      },
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "Ammoniacal solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-039",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 887,
+        "smiles": "CO",
+        "formula": "CH4O",
+        "chemical_name": "Methanol"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6584,
+        "smiles": "CC(=O)OC",
+        "formula": "C3H6O2",
+        "chemical_name": "Methyl Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "H2SO4 catalyst, 60°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-040",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6116,
+        "smiles": "[Ca+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6CaO4",
+        "chemical_name": "Calcium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-041",
+    "reactants": [
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      },
+      {
+        "casid": 24470,
+        "smiles": "[Ag+].[O-][N+](=O)[O-]",
+        "formula": "AgNO3",
+        "chemical_name": "Silver Nitrate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24561,
+        "smiles": "[Ag]Cl",
+        "formula": "AgCl",
+        "chemical_name": "Silver Chloride"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "reaction_type": "Precipitation",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-042",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 6093286,
+        "smiles": "[Ba+2].[OH-].[OH-]",
+        "formula": "BaH2O2",
+        "chemical_name": "Barium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 10980,
+        "smiles": "[Ba+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6BaO4",
+        "chemical_name": "Barium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-043",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 253881,
+        "smiles": "[Na+].[Br-]",
+        "formula": "BrNa",
+        "chemical_name": "Sodium Bromide"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6332,
+        "smiles": "CCBr",
+        "formula": "C2H5Br",
+        "chemical_name": "Bromoethane"
+      },
+      {
+        "casid": 516919,
+        "smiles": "[Na+].[O-]S(=O)(=O)O",
+        "formula": "HNaO4S",
+        "chemical_name": "Sodium Hydrogen Sulfate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "H2SO4 catalyst, reflux",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-044",
+    "reactants": [
+      {
+        "casid": 23925,
+        "smiles": "[Fe]",
+        "formula": "Fe",
+        "chemical_name": "Iron"
+      },
+      {
+        "casid": 24462,
+        "smiles": "[Cu+2].[O-]S(=O)(=O)[O-]",
+        "formula": "CuO4S",
+        "chemical_name": "Copper Sulfate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24393,
+        "smiles": "[Fe+2].[O-]S(=O)(=O)[O-]",
+        "formula": "FeO4S",
+        "chemical_name": "Ferrous Sulfate"
+      },
+      {
+        "casid": 23978,
+        "smiles": "[Cu]",
+        "formula": "Cu",
+        "chemical_name": "Copper"
+      }
+    ],
+    "reaction_type": "Single Displacement",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-045",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 784,
+        "smiles": "OO",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6585,
+        "smiles": "CC(=O)OO",
+        "formula": "C2H4O3",
+        "chemical_name": "Peracetic Acid"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-046",
+    "reactants": [
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Precipitation",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-047",
+    "reactants": [
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 25517,
+        "smiles": "[NH4+].[Cl-]",
+        "formula": "HCl4N",
+        "chemical_name": "Ammonium Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-048",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 297,
+        "smiles": "[C]",
+        "formula": "CH4",
+        "chemical_name": "Methane"
+      },
+      {
+        "casid": 297,
+        "smiles": "[C]",
+        "formula": "CH4",
+        "chemical_name": "Methane"
+      },
+      {
+        "casid": 297,
+        "smiles": "[C]",
+        "formula": "CH4",
+        "chemical_name": "Methane"
+      },
+      {
+        "casid": 297,
+        "smiles": "[C]",
+        "formula": "CH4",
+        "chemical_name": "Methane"
+      },
+      {
+        "casid": 297,
+        "smiles": "[C]",
+        "formula": "CH4",
+        "chemical_name": "Methane"
+      },
+      {
+        "casid": 297,
+        "smiles": "[C]",
+        "formula": "CH4",
+        "chemical_name": "Methane"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Dehydration",
+    "conditions": "Concentrated H2SO4, 100°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-049",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 24437,
+        "smiles": "[Na+].[Na+].[O-]S(=O)[O-]",
+        "formula": "Na2O3S",
+        "chemical_name": "Sodium Sulfite"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 1100,
+        "smiles": "OS(=O)O",
+        "formula": "H2O3S",
+        "chemical_name": "Sulfurous Acid"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-050",
+    "reactants": [
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 516919,
+        "smiles": "[Na+].[O-]S(=O)(=O)O",
+        "formula": "HNaO4S",
+        "chemical_name": "Sodium Hydrogen Sulfate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Acid-Salt",
+    "conditions": "Concentrated H2SO4, 150°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-051",
+    "reactants": [
+      {
+        "casid": 887,
+        "smiles": "CO",
+        "formula": "CH4O",
+        "chemical_name": "Methanol"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Combustion",
+    "conditions": "Excess oxygen, ignition",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-052",
+    "reactants": [
+      {
+        "casid": 241,
+        "smiles": "c1ccccc1",
+        "formula": "C6H6",
+        "chemical_name": "Benzene"
+      },
+      {
+        "casid": 24526,
+        "smiles": "ClCl",
+        "formula": "Cl2",
+        "chemical_name": "Chlorine"
+      }
+    ],
+    "products": [
+      {
+        "casid": 7964,
+        "smiles": "c1ccccc1Cl",
+        "formula": "C6H5Cl",
+        "chemical_name": "Chlorobenzene"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "FeCl3 catalyst, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-053",
+    "reactants": [
+      {
+        "casid": 516892,
+        "smiles": "[Na+].[O-]C(=O)O",
+        "formula": "CHNaO3",
+        "chemical_name": "Sodium Bicarbonate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Bicarbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-054",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 5359268,
+        "smiles": "[Al]",
+        "formula": "Al",
+        "chemical_name": "Aluminum"
+      }
+    ],
+    "products": [
+      {
+        "casid": 8757,
+        "smiles": "[Al+3].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C6H9AlO6",
+        "chemical_name": "Aluminum Acetate"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-055",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 8857,
+        "smiles": "CC(=O)OCC",
+        "formula": "C4H8O2",
+        "chemical_name": "Ethyl Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "H2SO4 catalyst, 60-70°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-056",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5284359,
+        "smiles": "[Ca+2].[Cl-].[Cl-]",
+        "formula": "CaCl2",
+        "chemical_name": "Calcium Chloride"
+      },
+      {
+        "casid": 10340,
+        "smiles": "[Na+].[Na+].[O-]C([O-])=O",
+        "formula": "CNa2O3",
+        "chemical_name": "Sodium Carbonate"
+      }
+    ],
+    "reaction_type": "Double Displacement",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-057",
+    "reactants": [
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Combustion",
+    "conditions": "Spark or catalyst, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-058",
+    "reactants": [
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24268,
+        "smiles": "[Na+].[O-][N+](=O)[O-]",
+        "formula": "NNaO3",
+        "chemical_name": "Sodium Nitrate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-059",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 14804,
+        "smiles": "[Na+].[Na+].[S-2]",
+        "formula": "Na2S",
+        "chemical_name": "Sodium Sulphide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 402,
+        "smiles": "S",
+        "formula": "H2S",
+        "chemical_name": "Hydrogen Sulfide"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-060",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 807,
+        "smiles": "II",
+        "formula": "I2",
+        "chemical_name": "Iodine"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 20593543,
+        "smiles": "CI(I)I",
+        "formula": "CH3I3",
+        "chemical_name": "Schembl2055521"
+      },
+      {
+        "casid": 2723810,
+        "smiles": "[O-]C(=O).[Na+]",
+        "formula": "CHNaO2",
+        "chemical_name": "Sodium Formate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Iodoform Reaction",
+    "conditions": "Alkaline solution, 60°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-061",
+    "reactants": [
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24497,
+        "smiles": "[Ca+2].[O-]S(=O)(=O)[O-]",
+        "formula": "CaO4S",
+        "chemical_name": "Calcium Sulfate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-062",
+    "reactants": [
+      {
+        "casid": 166033,
+        "smiles": "[Fe+3].[Cl-].[Cl-].[Cl-]",
+        "formula": "Cl3Fe",
+        "chemical_name": "Iron(3+) Trichloride"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 73964,
+        "smiles": "[Fe+3].[OH-].[OH-].[OH-]",
+        "formula": "FeH3O3",
+        "chemical_name": "Iron(Iii) Hydroxide"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      }
+    ],
+    "reaction_type": "Precipitation",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-063",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 2723922,
+        "smiles": "CC[O-].[Na+]",
+        "formula": "C2H5NaO",
+        "chemical_name": "Sodium Ethoxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 8857,
+        "smiles": "CC(=O)OCC",
+        "formula": "C4H8O2",
+        "chemical_name": "Ethyl Acetate"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "Anhydrous conditions, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-064",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 164826,
+        "smiles": "[Cu+2].[OH-].[OH-]",
+        "formula": "CuH2O2",
+        "chemical_name": "Cupric Hydroxide"
+      },
+      {
+        "casid": 164826,
+        "smiles": "[Cu+2].[OH-].[OH-]",
+        "formula": "CuH2O2",
+        "chemical_name": "Cupric Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 164827,
+        "smiles": "[Cu+2].[O-2]",
+        "formula": "CuO",
+        "chemical_name": "Cu(Ii) Oxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "Alkaline solution, 80°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-065",
+    "reactants": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 24434,
+        "smiles": "[K+].[O-][N+](=O)[O-]",
+        "formula": "KNO3",
+        "chemical_name": "Potassium Nitrate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24268,
+        "smiles": "[Na+].[O-][N+](=O)[O-]",
+        "formula": "NNaO3",
+        "chemical_name": "Sodium Nitrate"
+      },
+      {
+        "casid": 4873,
+        "smiles": "[K+].[Cl-]",
+        "formula": "ClK",
+        "chemical_name": "Potassium Chloride"
+      }
+    ],
+    "reaction_type": "Double Displacement",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-066",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 43581,
+        "smiles": "[O-][N+](=O)CC(=O)O",
+        "formula": "C2H3NO4",
+        "chemical_name": "2-Nitroacetic Acid"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Nitration",
+    "conditions": "Concentrated HNO3, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-067",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 3804841,
+        "smiles": "CCOS(=O)(=O)[O-]",
+        "formula": "C2H5O4S-",
+        "chemical_name": "Ethyl Sulfate"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "Concentrated H2SO4, 140°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-068",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 19972274,
+        "smiles": "[H+].[H+].[O-]P(=O)([O-])[O-]",
+        "formula": "H2O4P-",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 19972274,
+        "smiles": "[H+].[H+].[O-]P(=O)([O-])[O-]",
+        "formula": "H2O4P-",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 13710808,
+        "smiles": "[Ca+2].[O-]P(=O)(O)[O-].[O-]P(=O)(O)[O-]",
+        "formula": "CaH2O8P2-2",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-069",
+    "reactants": [
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 23978,
+        "smiles": "[Cu]",
+        "formula": "Cu",
+        "chemical_name": "Copper"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24462,
+        "smiles": "[Cu+2].[O-]S(=O)(=O)[O-]",
+        "formula": "CuO4S",
+        "chemical_name": "Copper Sulfate"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "Concentrated H2SO4, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-070",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 24408,
+        "smiles": "BrBr",
+        "formula": "Br2",
+        "chemical_name": "Bromine"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6227,
+        "smiles": "BrCC(=O)O",
+        "formula": "C2H3BrO2",
+        "chemical_name": "Bromoacetic Acid"
+      },
+      {
+        "casid": 22169024,
+        "smiles": "[Br-].[H+]",
+        "formula": "BrH",
+        "chemical_name": "Hydrogen Bromide"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "Red phosphorus catalyst, 100°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-071",
+    "reactants": [
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 24526,
+        "smiles": "ClCl",
+        "formula": "Cl2",
+        "chemical_name": "Chlorine"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 23665760,
+        "smiles": "[Na+].[O-]Cl",
+        "formula": "ClNaO",
+        "chemical_name": "Sodium Hypochlorite"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Disproportionation",
+    "conditions": "Cold aqueous solution, 15°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-072",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 24470,
+        "smiles": "[Ag+].[O-][N+](=O)[O-]",
+        "formula": "AgNO3",
+        "chemical_name": "Silver Nitrate"
+      },
+      {
+        "casid": 24470,
+        "smiles": "[Ag+].[O-][N+](=O)[O-]",
+        "formula": "AgNO3",
+        "chemical_name": "Silver Nitrate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 23954,
+        "smiles": "[Ag]",
+        "formula": "Ag",
+        "chemical_name": "Silver"
+      },
+      {
+        "casid": 23954,
+        "smiles": "[Ag]",
+        "formula": "Ag",
+        "chemical_name": "Silver"
+      },
+      {
+        "casid": 177,
+        "smiles": "CC=O",
+        "formula": "C2H4O",
+        "chemical_name": "Acetaldehyde"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "Ammoniacal solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-073",
+    "reactants": [
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      },
+      {
+        "casid": 25517,
+        "smiles": "[NH4+].[Cl-]",
+        "formula": "HCl4N",
+        "chemical_name": "Ammonium Chloride"
+      },
+      {
+        "casid": 25517,
+        "smiles": "[NH4+].[Cl-]",
+        "formula": "HCl4N",
+        "chemical_name": "Ammonium Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5284359,
+        "smiles": "[Ca+2].[Cl-].[Cl-]",
+        "formula": "CaCl2",
+        "chemical_name": "Calcium Chloride"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-074",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 25353,
+        "smiles": "S(Cl)Cl",
+        "formula": "Cl2S",
+        "chemical_name": "Sulfur Dichloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6367,
+        "smiles": "CC(=O)Cl",
+        "formula": "C2H3ClO",
+        "chemical_name": "Acetyl Chloride"
+      },
+      {
+        "casid": "ERROR",
+        "smiles": "S=O=O",
+        "formula": "SO2",
+        "chemical_name": "Sulfur Dioxide"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "Anhydrous conditions, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-075",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "Nitric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 945,
+        "smiles": "[N]=O",
+        "formula": "HNO",
+        "chemical_name": "Nitroxyl"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Concentrated HNO3, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-076",
+    "reactants": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "products": [
+      {
+        "casid": 516892,
+        "smiles": "[Na+].[O-]C(=O)O",
+        "formula": "CHNaO3",
+        "chemical_name": "Sodium Bicarbonate"
+      },
+      {
+        "casid": 25517,
+        "smiles": "[NH4+].[Cl-]",
+        "formula": "HCl4N",
+        "chemical_name": "Ammonium Chloride"
+      }
+    ],
+    "reaction_type": "Solvay Process",
+    "conditions": "Low temperature, 15°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-077",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Acid-Salt",
+    "conditions": "Concentrated solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-078",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 24488,
+        "smiles": "[O-][Cr](=O)(=O)[O-].[Na+].[Na+]",
+        "formula": "CrNa2O4",
+        "chemical_name": "Sodium Chromate"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 177,
+        "smiles": "CC=O",
+        "formula": "C2H4O",
+        "chemical_name": "Acetaldehyde"
+      },
+      {
+        "casid": 24930,
+        "smiles": "[Cr+3].[Cr+3].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-]",
+        "formula": "Cr2O12S3",
+        "chemical_name": "Chromic Sulfate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Acidic solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-079",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 24261,
+        "smiles": "O=[Si]=O",
+        "formula": "O2Si",
+        "chemical_name": "Silicon Dioxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 56973721,
+        "smiles": "[Ca+2].[O-][Si]([O-])([O-])[O-]",
+        "formula": "CaO4Si-2",
+        "chemical_name": "Chebi:190294"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Decomposition",
+    "conditions": "High temperature (~1000°C)",
+    "reference": "NIST WebBook"
+  },
+  {
+    "id": "RXN-080",
+    "reactants": [
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 4873,
+        "smiles": "[K+].[Cl-]",
+        "formula": "ClK",
+        "chemical_name": "Potassium Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 516920,
+        "smiles": "[K+].[O-]S(=O)(=O)O",
+        "formula": "HKO4S",
+        "chemical_name": "Potassium Bisulfate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Acid-Salt",
+    "conditions": "Concentrated H2SO4, 150°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-081",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 263,
+        "smiles": "CCCCO",
+        "formula": "C4H10O",
+        "chemical_name": "1-Butanol"
+      }
+    ],
+    "products": [
+      {
+        "casid": 31272,
+        "smiles": "CC(=O)OCCCC",
+        "formula": "C6H12O2",
+        "chemical_name": "Butyl Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "H2SO4 catalyst, 60°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-082",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 284,
+        "smiles": "C(=O)O",
+        "formula": "CH2O2",
+        "chemical_name": "Formic Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 8025,
+        "smiles": "C(=O)OCC",
+        "formula": "C3H6O2",
+        "chemical_name": "Ethyl Formate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "H2SO4 catalyst, 60°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-083",
+    "reactants": [
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 10340,
+        "smiles": "[Na+].[Na+].[O-]C([O-])=O",
+        "formula": "CNa2O3",
+        "chemical_name": "Sodium Carbonate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-084",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 9859601,
+        "smiles": "[Pb+2].[OH-].[OH-]",
+        "formula": "H2O2Pb",
+        "chemical_name": "Lead(2+) Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 9317,
+        "smiles": "[Pb+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6O4Pb",
+        "chemical_name": "Lead Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-085",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 172937,
+        "smiles": "C(C(C(C(C(O)O)O)O)O)O",
+        "formula": "C5H12O6",
+        "chemical_name": "Schembl13893071"
+      },
+      {
+        "casid": 172937,
+        "smiles": "C(C(C(C(C(O)O)O)O)O)O",
+        "formula": "C5H12O6",
+        "chemical_name": "Schembl13893071"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-086",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 24524,
+        "smiles": "FF",
+        "formula": "F2",
+        "chemical_name": "Fluorine"
+      }
+    ],
+    "products": [
+      {
+        "casid": 84512,
+        "smiles": "[Ca+2].[F-].[F-]",
+        "formula": "CaF2",
+        "chemical_name": "Calcium Fluoride"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-087",
+    "reactants": [
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 5359268,
+        "smiles": "[Al]",
+        "formula": "Al",
+        "chemical_name": "Aluminum"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24850,
+        "smiles": "[Al+3].[Al+3].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-].[O-]S(=O)(=O)[O-]",
+        "formula": "Al2O12S3",
+        "chemical_name": "Aluminum Sulfate"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-088",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 807,
+        "smiles": "II",
+        "formula": "I2",
+        "chemical_name": "Iodine"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 20593543,
+        "smiles": "CI(I)I",
+        "formula": "CH3I3",
+        "chemical_name": "Schembl2055521"
+      },
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Iodoform Reaction",
+    "conditions": "Alkaline solution, 60°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-089",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6337,
+        "smiles": "CCCl",
+        "formula": "C2H5Cl",
+        "chemical_name": "Chloroethane"
+      },
+      {
+        "casid": 516919,
+        "smiles": "[Na+].[O-]S(=O)(=O)O",
+        "formula": "HNaO4S",
+        "chemical_name": "Sodium Hydrogen Sulfate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "H2SO4 catalyst, reflux",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-090",
+    "reactants": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 24924,
+        "smiles": "[Pb+2].[O-][N+](=O)[O-].[O-][N+](=O)[O-]",
+        "formula": "N2O6Pb",
+        "chemical_name": "Lead Nitrate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24268,
+        "smiles": "[Na+].[O-][N+](=O)[O-]",
+        "formula": "NNaO3",
+        "chemical_name": "Sodium Nitrate"
+      },
+      {
+        "casid": 24268,
+        "smiles": "[Na+].[O-][N+](=O)[O-]",
+        "formula": "NNaO3",
+        "chemical_name": "Sodium Nitrate"
+      },
+      {
+        "casid": 166945,
+        "smiles": "[Pb+2].[Cl-].[Cl-]",
+        "formula": "Cl2Pb",
+        "chemical_name": "Lead Chloride (Pbcl2)"
+      }
+    ],
+    "reaction_type": "Precipitation",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-091",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 73964,
+        "smiles": "[Fe+3].[OH-].[OH-].[OH-]",
+        "formula": "FeH3O3",
+        "chemical_name": "Iron(Iii) Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 164887,
+        "smiles": "[Fe+3].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C6H9FeO6",
+        "chemical_name": "Ferric Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-092",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 712,
+        "smiles": "C=O",
+        "formula": "CH2O",
+        "chemical_name": "Formaldehyde"
+      },
+      {
+        "casid": 712,
+        "smiles": "C=O",
+        "formula": "CH2O",
+        "chemical_name": "Formaldehyde"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 24682,
+        "smiles": "O=S(=O)=O",
+        "formula": "O3S",
+        "chemical_name": "Sulfur Trioxide"
+      },
+      {
+        "casid": 24682,
+        "smiles": "O=S(=O)=O",
+        "formula": "O3S",
+        "chemical_name": "Sulfur Trioxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Dehydration",
+    "conditions": "Concentrated H2SO4, 100°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-093",
+    "reactants": [
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      },
+      {
+        "casid": 19972274,
+        "smiles": "[H+].[H+].[O-]P(=O)([O-])[O-]",
+        "formula": "H2O4P-",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 13710808,
+        "smiles": "[Ca+2].[O-]P(=O)(O)[O-].[O-]P(=O)(O)[O-]",
+        "formula": "CaH2O8P2-2",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-094",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 24758,
+        "smiles": "[NaH]",
+        "formula": "HNa",
+        "chemical_name": "Sodium Hydride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Anhydrous conditions, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-095",
+    "reactants": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 24823,
+        "smiles": "[O-][O+]=O",
+        "formula": "O3",
+        "chemical_name": "Ozone"
+      }
+    ],
+    "products": [
+      {
+        "casid": 177,
+        "smiles": "CC=O",
+        "formula": "C2H4O",
+        "chemical_name": "Acetaldehyde"
+      },
+      {
+        "casid": 784,
+        "smiles": "OO",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "reaction_type": "Ozonolysis",
+    "conditions": "Low temperature, -78°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-096",
+    "reactants": [
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      },
+      {
+        "casid": 10340,
+        "smiles": "[Na+].[Na+].[O-]C([O-])=O",
+        "formula": "CNa2O3",
+        "chemical_name": "Sodium Carbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24436,
+        "smiles": "[Na+].[Na+].[O-]S(=O)(=O)[O-]",
+        "formula": "Na2O4S",
+        "chemical_name": "Sodium Sulfate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Acid-Carbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-097",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 996,
+        "smiles": "c1ccccc1O",
+        "formula": "C6H6O",
+        "chemical_name": "Phenol"
+      }
+    ],
+    "products": [
+      {
+        "casid": 31229,
+        "smiles": "CC(=O)Oc1ccccc1",
+        "formula": "C8H8O2",
+        "chemical_name": "Phenyl Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Esterification",
+    "conditions": "H2SO4 catalyst, 60°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-098",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 5360315,
+        "smiles": "[Mg+2].[Cl-].[Cl-]",
+        "formula": "Cl2Mg",
+        "chemical_name": "Magnesium Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5284359,
+        "smiles": "[Ca+2].[Cl-].[Cl-]",
+        "formula": "CaCl2",
+        "chemical_name": "Calcium Chloride"
+      },
+      {
+        "casid": 11029,
+        "smiles": "[Mg+2].[O-]C([O-])=O",
+        "formula": "CMgO3",
+        "chemical_name": "Magnesium Carbonate"
+      }
+    ],
+    "reaction_type": "Double Displacement",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-099",
+    "reactants": [
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 6367,
+        "smiles": "CC(=O)Cl",
+        "formula": "C2H3ClO",
+        "chemical_name": "Acetyl Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Anhydrous conditions, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-100",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 164826,
+        "smiles": "[Cu+2].[OH-].[OH-]",
+        "formula": "CuH2O2",
+        "chemical_name": "Cupric Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 8895,
+        "smiles": "[Cu+2].CC(=O)[O-].CC(=O)[O-]",
+        "formula": "C4H6CuO4",
+        "chemical_name": "142-71-2"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-101",
+    "reactants": [
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 25517,
+        "smiles": "[NH4+].[Cl-]",
+        "formula": "HCl4N",
+        "chemical_name": "Ammonium Chloride"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-102",
+    "reactants": [
+      {
+        "casid": 1004,
+        "smiles": "OP(=O)(O)O",
+        "formula": "H3O4P",
+        "chemical_name": "Phosphoric Acid"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24243,
+        "smiles": "[Na+].[Na+].[Na+].[O-]P(=O)([O-])[O-]",
+        "formula": "Na3O4P",
+        "chemical_name": "Trisodium Phosphate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-103",
+    "reactants": [
+      {
+        "casid": 402,
+        "smiles": "[S]",
+        "formula": "H2S",
+        "chemical_name": "Hydrogen Sulfide"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 1119,
+        "smiles": "O=S=O",
+        "formula": "O2S",
+        "chemical_name": "Sulfur Dioxide"
+      }
+    ],
+    "reaction_type": "Combustion",
+    "conditions": "Excess oxygen, ignition",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-104",
+    "reactants": [
+      {
+        "casid": 241,
+        "smiles": "c1ccccc1",
+        "formula": "C6H6",
+        "chemical_name": "Benzene"
+      },
+      {
+        "casid": 24408,
+        "smiles": "BrBr",
+        "formula": "Br2",
+        "chemical_name": "Bromine"
+      }
+    ],
+    "products": [
+      {
+        "casid": 7961,
+        "smiles": "c1ccccc1Br",
+        "formula": "C6H5Br",
+        "chemical_name": "Bromobenzene"
+      },
+      {
+        "casid": 22169024,
+        "smiles": "[Br-].[H+]",
+        "formula": "BrH",
+        "chemical_name": "Hydrogen Bromide"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "FeBr3 catalyst, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-105",
+    "reactants": [
+      {
+        "casid": 6325,
+        "smiles": "C=C",
+        "formula": "C2H4",
+        "chemical_name": "Ethylene"
+      },
+      {
+        "casid": 24526,
+        "smiles": "ClCl",
+        "formula": "Cl2",
+        "chemical_name": "Chlorine"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6365,
+        "smiles": "CC(Cl)Cl",
+        "formula": "C2H4Cl2",
+        "chemical_name": "1,1-Dichloroethane"
+      }
+    ],
+    "reaction_type": "Addition",
+    "conditions": "UV light or catalyst, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-106",
+    "reactants": [
+      {
+        "casid": 5462224,
+        "smiles": "[Mg]",
+        "formula": "Mg",
+        "chemical_name": "Magnesium"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6850729,
+        "smiles": "[Mg+2].[O-2]",
+        "formula": "MgO",
+        "chemical_name": "Magnesium Oxide"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Air, high temperature",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-107",
+    "reactants": [
+      {
+        "casid": 516892,
+        "smiles": "[Na+].[O-]C(=O)O",
+        "formula": "CHNaO3",
+        "chemical_name": "Sodium Bicarbonate"
+      },
+      {
+        "casid": 1004,
+        "smiles": "OP(=O)(O)O",
+        "formula": "H3O4P",
+        "chemical_name": "Phosphoric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 23672064,
+        "smiles": "[Na+].[O-]P(=O)(O)O",
+        "formula": "H2NaO4P",
+        "chemical_name": "7558-80-7"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Acid-Bicarbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-108",
+    "reactants": [
+      {
+        "casid": 25517,
+        "smiles": "[NH4+].[Cl-]",
+        "formula": "HCl4N",
+        "chemical_name": "Ammonium Chloride"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-109",
+    "reactants": [
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24268,
+        "smiles": "[Na+].[O-][N+](=O)[O-]",
+        "formula": "NNaO3",
+        "chemical_name": "Sodium Nitrate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-110",
+    "reactants": [
+      {
+        "casid": 8857,
+        "smiles": "CC(=O)OCC",
+        "formula": "C4H8O2",
+        "chemical_name": "Ethyl Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "products": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      }
+    ],
+    "reaction_type": "Hydrolysis",
+    "conditions": "H2SO4 catalyst, 80°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-111",
+    "reactants": [
+      {
+        "casid": 24462,
+        "smiles": "[Cu+2].[O-]S(=O)(=O)[O-]",
+        "formula": "CuO4S",
+        "chemical_name": "Copper Sulfate"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      }
+    ],
+    "products": [
+      {
+        "casid": 160444301,
+        "smiles": "[Cu+2].[NH3+].[NH3+].[NH3+].[NH3+]",
+        "formula": "CuH16N4+6",
+        "chemical_name": "No Name"
+      }
+    ],
+    "reaction_type": "Complexation",
+    "conditions": "Aqueous ammonia, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-112",
+    "reactants": [
+      {
+        "casid": 6337,
+        "smiles": "CCCl",
+        "formula": "C2H5Cl",
+        "chemical_name": "Chloroethane"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 702,
+        "smiles": "CCO",
+        "formula": "C2H6O",
+        "chemical_name": "Ethanol"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "Aqueous solution, reflux",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-113",
+    "reactants": [
+      {
+        "casid": 5462224,
+        "smiles": "[Mg]",
+        "formula": "Mg",
+        "chemical_name": "Magnesium"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5360315,
+        "smiles": "[Mg+2].[Cl-].[Cl-]",
+        "formula": "Cl2Mg",
+        "chemical_name": "Magnesium Chloride"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-114",
+    "reactants": [
+      {
+        "casid": 241,
+        "smiles": "c1ccccc1",
+        "formula": "C6H6",
+        "chemical_name": "Benzene"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 7416,
+        "smiles": "c1ccccc1[N+](=O)[O-]",
+        "formula": "C6H5NO2",
+        "chemical_name": "Nitrobenzene"
+      },
+      {
+        "casid": 169430093,
+        "smiles": "[H+].[H+]",
+        "formula": "H2+2",
+        "chemical_name": "No Name"
+      }
+    ],
+    "reaction_type": "Nitration",
+    "conditions": "H2SO4 catalyst, 55°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-115",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 87603107,
+        "smiles": "C(=O)C(=O)C(=O)C(=O)C(=O)C(=O)O",
+        "formula": "C6H2O7",
+        "chemical_name": "Schembl3968055"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Concentrated HNO3, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-116",
+    "reactants": [
+      {
+        "casid": 402,
+        "smiles": "[S]",
+        "formula": "H2S",
+        "chemical_name": "Hydrogen Sulfide"
+      },
+      {
+        "casid": 1119,
+        "smiles": "O=S=O",
+        "formula": "O2S",
+        "chemical_name": "Sulfur Dioxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24682,
+        "smiles": "O=S(=O)=O",
+        "formula": "O3S",
+        "chemical_name": "Sulfur Trioxide"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "V2O5 catalyst, 450°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-117",
+    "reactants": [
+      {
+        "casid": 1004,
+        "smiles": "OP(=O)(O)O",
+        "formula": "H3O4P",
+        "chemical_name": "Phosphoric Acid"
+      },
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 656670,
+        "smiles": "[Ca+2].[O-]P(=O)(O)O",
+        "formula": "CaH2O4P+",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-118",
+    "reactants": [
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 22985,
+        "smiles": "[NH4+].[O-][N+](=O)[O-]",
+        "formula": "H4N2O3",
+        "chemical_name": "Ammonium Nitrate"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-119",
+    "reactants": [
+      {
+        "casid": 11029,
+        "smiles": "[Mg+2].[O-]C([O-])=O",
+        "formula": "CMgO3",
+        "chemical_name": "Magnesium Carbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6850729,
+        "smiles": "[Mg+2].[O-2]",
+        "formula": "MgO",
+        "chemical_name": "Magnesiumoxide"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Thermal Decomposition",
+    "conditions": "High temperature (~600°C)",
+    "reference": "NIST WebBook"
+  },
+  {
+    "id": "RXN-120",
+    "reactants": [
+      {
+        "casid": 6584,
+        "smiles": "CC(=O)OC",
+        "formula": "C3H6O2",
+        "chemical_name": "Methyl Acetate"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 517045,
+        "smiles": "CC(=O)[O-].[Na+]",
+        "formula": "C2H3NaO2",
+        "chemical_name": "Sodium Acetate"
+      },
+      {
+        "casid": 887,
+        "smiles": "CO",
+        "formula": "CH4O",
+        "chemical_name": "Methanol"
+      }
+    ],
+    "reaction_type": "Hydrolysis",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-121",
+    "reactants": [
+      {
+        "casid": 10329304,
+        "smiles": "[Fe+2].[Cl-].[Cl-]",
+        "formula": "Cl2Fe",
+        "chemical_name": "Mfcd00011004"
+      },
+      {
+        "casid": 784,
+        "smiles": "[O][O]",
+        "formula": "H2O2",
+        "chemical_name": "Hydrogen Peroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 166033,
+        "smiles": "[Fe+3].[Cl-].[Cl-].[Cl-]",
+        "formula": "Cl3Fe",
+        "chemical_name": "Iron(3+) Trichloride"
+      }
+    ],
+    "reaction_type": "Oxidation",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-122",
+    "reactants": [
+      {
+        "casid": 6325,
+        "smiles": "C=C",
+        "formula": "C2H4",
+        "chemical_name": "Ethylene"
+      },
+      {
+        "casid": 24408,
+        "smiles": "BrBr",
+        "formula": "Br2",
+        "chemical_name": "Bromine"
+      }
+    ],
+    "products": [
+      {
+        "casid": 11201,
+        "smiles": "CC(Br)Br",
+        "formula": "C2H4Br2",
+        "chemical_name": "1,1-Dibromoethane"
+      }
+    ],
+    "reaction_type": "Addition",
+    "conditions": "UV light or catalyst, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-123",
+    "reactants": [
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24268,
+        "smiles": "[Na+].[O-][N+](=O)[O-]",
+        "formula": "NNaO3",
+        "chemical_name": "Sodium Nitrate"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Acid-Salt",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-124",
+    "reactants": [
+      {
+        "casid": 5462224,
+        "smiles": "[Mg]",
+        "formula": "Mg",
+        "chemical_name": "Magnesium"
+      },
+      {
+        "casid": 1119,
+        "smiles": "O=S=O",
+        "formula": "O2S",
+        "chemical_name": "Sulfur Dioxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6850729,
+        "smiles": "[Mg+2].[O-2]",
+        "formula": "MgO",
+        "chemical_name": "Magnesiumoxide"
+      },
+      {
+        "casid": 402,
+        "smiles": "[S]",
+        "formula": "H2S",
+        "chemical_name": "Hydrogen Sulfide"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "High temperature, 700°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-125",
+    "reactants": [
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24655,
+        "smiles": "[NH4+].[O-]S(=O)(=O)O",
+        "formula": "H5NO4S",
+        "chemical_name": "Ammonium Bisulfate"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-126",
+    "reactants": [
+      {
+        "casid": 7964,
+        "smiles": "c1ccccc1Cl",
+        "formula": "C6H5Cl",
+        "chemical_name": "Chlorobenzene"
+      },
+      {
+        "casid": 14798,
+        "smiles": "[OH-].[Na+]",
+        "formula": "HNaO",
+        "chemical_name": "Sodium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 996,
+        "smiles": "c1ccccc1O",
+        "formula": "C6H6O",
+        "chemical_name": "Phenol"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      }
+    ],
+    "reaction_type": "Substitution",
+    "conditions": "High pressure, 300°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-127",
+    "reactants": [
+      {
+        "casid": 10112,
+        "smiles": "[Ca+2].[O-]C([O-])=O",
+        "formula": "CCaO3",
+        "chemical_name": "Calcium Carbonate"
+      },
+      {
+        "casid": 25517,
+        "smiles": "[NH4+].[Cl-]",
+        "formula": "HCl4N",
+        "chemical_name": "Ammonium Chloride"
+      },
+      {
+        "casid": 25517,
+        "smiles": "[NH4+].[Cl-]",
+        "formula": "HCl4N",
+        "chemical_name": "Ammonium Chloride"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5284359,
+        "smiles": "[Ca+2].[Cl-].[Cl-]",
+        "formula": "CaCl2",
+        "chemical_name": "Calcium Chloride"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Double Displacement",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-128",
+    "reactants": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      }
+    ],
+    "products": [
+      {
+        "casid": 178,
+        "smiles": "CC(=O)N",
+        "formula": "C2H5NO",
+        "chemical_name": "Acetamide"
+      }
+    ],
+    "reaction_type": "Amidation",
+    "conditions": "Heat, 150°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-129",
+    "reactants": [
+      {
+        "casid": 402,
+        "smiles": "[S]",
+        "formula": "H2S",
+        "chemical_name": "Hydrogen Sulfide"
+      },
+      {
+        "casid": 22066174,
+        "smiles": "[H+].[H+].[O-]S(=O)(=O)[O-]",
+        "formula": "H2O4S",
+        "chemical_name": "Sulfuric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24682,
+        "smiles": "O=S(=O)=O",
+        "formula": "O3S",
+        "chemical_name": "Sulfur Trioxide"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "Concentrated H2SO4, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-130",
+    "reactants": [
+      {
+        "casid": 1004,
+        "smiles": "OP(=O)(O)O",
+        "formula": "H3O4P",
+        "chemical_name": "Phosphoric Acid"
+      },
+      {
+        "casid": 516892,
+        "smiles": "[Na+].[O-]C(=O)O",
+        "formula": "CHNaO3",
+        "chemical_name": "Sodium Bicarbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 23672064,
+        "smiles": "[Na+].[O-]P(=O)(O)O",
+        "formula": "H2NaO4P",
+        "chemical_name": "7558-80-7"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Acid-Bicarbonate",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-131",
+    "reactants": [
+      {
+        "casid": 241,
+        "smiles": "c1ccccc1",
+        "formula": "C6H6",
+        "chemical_name": "Benzene"
+      },
+      {
+        "casid": 24682,
+        "smiles": "O=S(=O)=O",
+        "formula": "O3S",
+        "chemical_name": "Sulfur Trioxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 7371,
+        "smiles": "c1ccccc1S(=O)(=O)O",
+        "formula": "C6H6O3S",
+        "chemical_name": "Benzenesulfonic Acid"
+      }
+    ],
+    "reaction_type": "Sulfonation",
+    "conditions": "Fuming H2SO4, 40°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-132",
+    "reactants": [
+      {
+        "casid": 5360315,
+        "smiles": "[Mg+2].[Cl-].[Cl-]",
+        "formula": "Cl2Mg",
+        "chemical_name": "Magnesium Chloride"
+      },
+      {
+        "casid": 10340,
+        "smiles": "[Na+].[Na+].[O-]C([O-])=O",
+        "formula": "CNa2O3",
+        "chemical_name": "Sodium Carbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 11029,
+        "smiles": "[Mg+2].[O-]C([O-])=O",
+        "formula": "CMgO3",
+        "chemical_name": "Magnesium Carbonate"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      },
+      {
+        "casid": 5234,
+        "smiles": "[Na+].[Cl-]",
+        "formula": "ClNa",
+        "chemical_name": "Sodium Chloride"
+      }
+    ],
+    "reaction_type": "Double Displacement",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-133",
+    "reactants": [
+      {
+        "casid": 6365,
+        "smiles": "CC(Cl)Cl",
+        "formula": "C2H4Cl2",
+        "chemical_name": "1,1-Dichloroethane"
+      }
+    ],
+    "products": [
+      {
+        "casid": 6325,
+        "smiles": "C=C",
+        "formula": "C2H4",
+        "chemical_name": "Ethylene"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "reaction_type": "Elimination",
+    "conditions": "KOH, alcoholic solution, 80°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-134",
+    "reactants": [
+      {
+        "casid": 166033,
+        "smiles": "[Fe+3].[Cl-].[Cl-].[Cl-]",
+        "formula": "Cl3Fe",
+        "chemical_name": "Iron(3+) Trichloride"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      }
+    ],
+    "products": [
+      {
+        "casid": null,
+        "smiles": "[Fe+3].[NH3+].[NH3+].[NH3+]",
+        "formula": null,
+        "chemical_name": "No Name"
+      }
+    ],
+    "reaction_type": "Complexation",
+    "conditions": "Aqueous ammonia, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-135",
+    "reactants": [
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 6093208,
+        "smiles": "[Ca+2].[OH-].[OH-]",
+        "formula": "CaH2O2",
+        "chemical_name": "Calcium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": 24963,
+        "smiles": "[Ca+2].[O-][N+](=O)[O-].[O-][N+](=O)[O-]",
+        "formula": "CaN2O6",
+        "chemical_name": "Calcium Nitrate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-136",
+    "reactants": [
+      {
+        "casid": 604,
+        "smiles": "C(C(C(C(C(C(=O)O)O)O)O)O)O",
+        "formula": "C6H12O7",
+        "chemical_name": "Hexonic Acid"
+      },
+      {
+        "casid": 14797,
+        "smiles": "[OH-].[K+]",
+        "formula": "HKO",
+        "chemical_name": "Potassium Hydroxide"
+      },
+      {
+        "casid": 14797,
+        "smiles": "[OH-].[K+]",
+        "formula": "HKO",
+        "chemical_name": "Potassium Hydroxide"
+      }
+    ],
+    "products": [
+      {
+        "casid": null,
+        "smiles": "[K+].[K+].C(C(C(C(C(C(=O)[O-])O)O)O)O)[O-]",
+        "formula": null,
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-137",
+    "reactants": [
+      {
+        "casid": 402,
+        "smiles": "[S]",
+        "formula": "H2S",
+        "chemical_name": "Hydrogen Sulfide"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 402,
+        "smiles": "S",
+        "formula": "H2S",
+        "chemical_name": "Hydrogen Sulfide"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Redox",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-138",
+    "reactants": [
+      {
+        "casid": 7961,
+        "smiles": "c1ccccc1Br",
+        "formula": "C6H5Br",
+        "chemical_name": "Bromobenzene"
+      },
+      {
+        "casid": 5462224,
+        "smiles": "[Mg]",
+        "formula": "Mg",
+        "chemical_name": "Magnesium"
+      }
+    ],
+    "products": [
+      {
+        "casid": 66852,
+        "smiles": "c1ccccc1[Mg]Br",
+        "formula": "C6H5BrMg",
+        "chemical_name": "Phenylmagnesium Bromide"
+      }
+    ],
+    "reaction_type": "Grignard Formation",
+    "conditions": "Anhydrous ether, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-139",
+    "reactants": [
+      {
+        "casid": 1004,
+        "smiles": "OP(=O)(O)O",
+        "formula": "H3O4P",
+        "chemical_name": "Phosphoric Acid"
+      },
+      {
+        "casid": 5462224,
+        "smiles": "[Mg]",
+        "formula": "Mg",
+        "chemical_name": "Magnesium"
+      }
+    ],
+    "products": [
+      {
+        "casid": 92027717,
+        "smiles": "[Mg+2].[O-]P(=O)(O)O",
+        "formula": "H2MgO4P+",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 783,
+        "smiles": "[H][H]",
+        "formula": "H2",
+        "chemical_name": "Hydrogen"
+      }
+    ],
+    "reaction_type": "Acid-Metal",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "ChemLibreTexts"
+  },
+  {
+    "id": "RXN-140",
+    "reactants": [
+      {
+        "casid": 222,
+        "smiles": "N",
+        "formula": "H3N",
+        "chemical_name": "Ammonia"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "products": [
+      {
+        "casid": 22985,
+        "smiles": "[NH4+].[O-][N+](=O)[O-]",
+        "formula": "H4N2O3",
+        "chemical_name": "Ammonium Nitrate"
+      },
+      {
+        "casid": 23615422,
+        "smiles": "[O-][N+](=O)[O-].[H+]",
+        "formula": "HNO3",
+        "chemical_name": "No Name"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-141",
+    "reactants": [
+      {
+        "casid": 516892,
+        "smiles": "[Na+].[O-]C(=O)O",
+        "formula": "CHNaO3",
+        "chemical_name": "Sodium Bicarbonate"
+      }
+    ],
+    "products": [
+      {
+        "casid": 10340,
+        "smiles": "[Na+].[Na+].[O-]C([O-])=O",
+        "formula": "CNa2O3",
+        "chemical_name": "Sodium Carbonate"
+      },
+      {
+        "casid": 280,
+        "smiles": "O=C=O",
+        "formula": "CO2",
+        "chemical_name": "Carbon Dioxide"
+      }
+    ],
+    "reaction_type": "Thermal Decomposition",
+    "conditions": "High temperature (~300°C)",
+    "reference": "NIST WebBook"
+  },
+  {
+    "id": "RXN-142",
+    "reactants": [
+      {
+        "casid": 31272,
+        "smiles": "CC(=O)OCCCC",
+        "formula": "C6H12O2",
+        "chemical_name": "Butyl Acetate"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "products": [
+      {
+        "casid": 176,
+        "smiles": "CC(=O)O",
+        "formula": "C2H4O2",
+        "chemical_name": "Acetic Acid"
+      },
+      {
+        "casid": 263,
+        "smiles": "CCCCO",
+        "formula": "C4H10O",
+        "chemical_name": "1-Butanol"
+      }
+    ],
+    "reaction_type": "Hydrolysis",
+    "conditions": "H2SO4 catalyst, 80°C",
+    "reference": "PubChem"
+  },
+  {
+    "id": "RXN-143",
+    "reactants": [
+      {
+        "casid": 6850729,
+        "smiles": "[Mg+2].[O-2]",
+        "formula": "MgO",
+        "chemical_name": "Magnesiumoxide"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      },
+      {
+        "casid": 18348331,
+        "smiles": "[Cl-].[H+]",
+        "formula": "HCl",
+        "chemical_name": "Hydrochloric Acid"
+      }
+    ],
+    "products": [
+      {
+        "casid": 5360315,
+        "smiles": "[Mg+2].[Cl-].[Cl-]",
+        "formula": "Cl2Mg",
+        "chemical_name": "Magnesium Chloride"
+      },
+      {
+        "casid": 962,
+        "smiles": "O",
+        "formula": "H2O",
+        "chemical_name": "Water"
+      }
+    ],
+    "reaction_type": "Neutralization",
+    "conditions": "Aqueous solution, 25°C",
+    "reference": "PubChem"
+  }
+]
